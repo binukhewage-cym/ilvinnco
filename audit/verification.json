@@ -5,14 +5,14 @@
     "detail": ""
   },
   {
-    "name": "/ preserved title",
+    "name": "/ descriptive title",
     "status": "PASS",
     "detail": ""
   },
   {
-    "name": "/ original description absence preserved",
+    "name": "/ meta description 70-200 chars naming place",
     "status": "PASS",
-    "detail": ""
+    "detail": "IL VICINO (Grannskapet) är en kvarterskrog i Pershagen, Södertälje, som serverar pizza, pasta, sallader, kötträtter, burgare, barnmeny och dessert. Öppet alla dagar. Boka bord på 08550-97000."
   },
   {
     "name": "/ Swedish language",
@@ -41,6 +41,11 @@
   },
   {
     "name": "/ JSON-LD syntax and stable unique entity IDs",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/ FAQPage matches visible questions",
     "status": "PASS",
     "detail": ""
   },
@@ -75,14 +80,14 @@
     "detail": ""
   },
   {
-    "name": "/meny/ preserved title",
+    "name": "/meny/ descriptive title",
     "status": "PASS",
     "detail": ""
   },
   {
-    "name": "/meny/ original description absence preserved",
+    "name": "/meny/ meta description 70-200 chars naming place",
     "status": "PASS",
-    "detail": ""
+    "detail": "Hela menyn med priser för IL VICINO i Pershagen, Södertälje: förrätter, varmrätter, 28 pizzor, barnmeny och dessert (59–209 kr)."
   },
   {
     "name": "/meny/ Swedish language",
@@ -113,6 +118,11 @@
     "name": "/meny/ JSON-LD syntax and stable unique entity IDs",
     "status": "PASS",
     "detail": ""
+  },
+  {
+    "name": "/meny/ every MenuItem priced in SEK",
+    "status": "PASS",
+    "detail": "60"
   },
   {
     "name": "/meny/ schema facts",
@@ -205,7 +215,12 @@
     "detail": ""
   },
   {
-    "name": "robots policy preserved",
+    "name": "robots allows all crawlers and named AI bots",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "llms.txt served with facts and full menu",
     "status": "PASS",
     "detail": ""
   },
