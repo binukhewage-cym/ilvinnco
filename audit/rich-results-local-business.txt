@@ -1,0 +1,248 @@
+- banner:
+  - button "Go back":
+  - heading "Rich Results Test" [level=1]
+  - button:
+    - generic: 
+  - button "Google apps":
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=sitemaps&passive=1209600&continue=https%3A%2F%2Fsearch.google.com%2Ftest%2Frich-results%2Fresult%2Fr%252Flocal-business%3Fid%3D2v5KkpRn__MGpJ7OsKm-jA&followup=https%3A%2F%2Fsearch.google.com%2Ftest%2Frich-results%2Fresult%2Fr%252Flocal-business%3Fid%3D2v5KkpRn__MGpJ7OsKm-jA&ec=GAZA1AI
+- generic: Code input
+- button "Open search dialog":
+  - generic: 
+- button "Copy editor content":
+  - generic: 
+- textbox
+- generic: "1"
+- text: "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Restaurant\",\"@id\":\"https://ilvicino.se/#restaurant\",\"name\":\"IL VICINO\",\"url\":\"https://ilvicino.se/\",\"logo\":\"https://ilvicino.se/assets/9d76905f8d.svg\",\"image\":\"https://ilvicino.se/assets/5583f7603e.jpeg\",\"telephone\":\"08550-97000\",\"email\":\"info@ilvicino.se\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"Nyköpingsvägen 75\",\"postalCode\":\"15139\",\"addressLocality\":\"Södertälje\"},\"hasMenu\":{\"@id\":\"https://ilvicino.se/meny/#menu\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"10:30\",\"closes\":\"21:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"10:30\",\"closes\":\"22:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Saturday\",\"opens\":\"12:00\",\"closes\":\"22:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Sunday\",\"opens\":\"12:00\",\"closes\":\"20:00\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://ilvicino.se/#website\",\"url\":\"https://ilvicino.se/\",\"name\":\"ilvicino.se\",\"inLanguage\":\"sv\",\"publisher\":{\"@id\":\"https://ilvicino.se/#restaurant\"}},{\"@type\":\"WebPage\",\"@id\":\"https://ilvicino.se/meny/#webpage\",\"url\":\"https://ilvicino.se/meny/\",\"name\":\"Meny | ilvicino.se\",\"inLanguage\":\"sv\",\"isPartOf\":{\"@id\":\"https://ilvicino.se/#website\"},\"about\":{\"@id\":\"https://ilvicino.se/#restaurant\"},\"mainEntity\":{\"@id\":\"https://ilvicino.se/meny/#menu\"},\"breadcrumb\":{\"@id\":\"https://ilvicino.se/meny/#breadcrumb\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://ilvicino.se/meny/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Hem\",\"item\":\"https://ilvicino.se/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Meny\",\"item\":\"https://ilvicino.se/meny/\"}]},{\"@type\":\"Menu\",\"@id\":\"https://ilvicino.se/meny/#menu\",\"name\":\"Vår Meny\",\"url\":\"https://ilvicino.se/meny/\",\"hasMenuSection\":[{\"@type\":\"MenuSection\",\"@id\":\"https://ilvicino.se/meny/#meny-0\",\"name\":\"Förrätter\",\"description\":\"Toast Skagen\\nPå rostad surdegsbröd - 99\\nBuffalo Wings\\nMed vitlöks dip 8st - 89\\nNachos\\nMed smältost, guacamole och salsa - 79\\nMozzarella sticks\\nMed vitlök dip 6st - 69\\nJalapeño Poppers\\nMed vitlöks dip 6st - 69\\nChicken nuggets\\nMed curry dip 6st - 69\\nFalafel\\nMed sesamdressing 6st - 69\\nCombo Plates\\nMed Wings, sticks poppers & nuggets med 2st dip - 159\"},{\"@type\":\"MenuSection\",\"@id\":\"https://ilvicino.se/meny/#meny-1\",\"name\":\"Varmrätter\",\"description\":\"Grillad Biff 200g med pommes, bea & rödvinssås - 199\\nSkomakarlåda 200g Biff, bacon, rödvinssky, purjolök & mos - 199\\nSchnitzel med bea rödvinssky & pommes - 169\\nFläskfilé på planka med mos & bea rödvinssky - 179\\nKyckling pasta med vitlök, soltorkade tomater & pesto - 159\\nScampi pasta med vitt vin, vitlök, persilja & färsktomat - 169\\nCarbonara pancetta, äggula, lök & parmesan - 159\\nOxfilé Pasta med tryffel & spenat - 169\\nGrillad kycklingfilé med currydressing & pommes - 159\\nFalukorv Sandwich med senap, stekt ägg & pommes - 139\\nFish and chips med remouladsås - 149\\nCaesarsallad kyckling med bacon, krutonger & parmesan - 149\\nScampi Caesarsallad med krutonger & parmesan - 159\\nHalloumi sallad med avokado & rhode-island dressing - 149\\nHalloumi burgare med chili Mayo & pommes - 149\\nBBQ burgare med bacon, cheddarost & pommes - 149\"},{\"@type\":\"MenuSection\",\"@id\":\"https://ilvicino.se/meny/#meny-2\",\"name\":\"Pizzor\",\"description\":\"129\\n1. MARGHERITA\\n2. AL FUNGHI (Svamp)\\n3. VESUVIO (Skinka)\\n4. CAPRICCIOSA (Skinka & Svamp)\\n5. CALZONE (Inbakad skinka)\\n6. HA W AII (Skinka & Ananas)\\n7. PESCATORE (Skinka & Räkor)\\n8. MEXICANA (Nötfärs, tacosås, vitlök, tacokrydda & jalapeño)\\n139\\n9. PIZZA POLLO (Kyckling, ananas & curry)\\n10. ROMANA (T onfisk, salami & lök)\\n11. VEGETARIANA (Svamp, paprika, lök & kronärtskocka)\\n12. ANCONA (Skinka, nötfärs & bearnaisesås)\\n13. KEBABPIZZA (Kebab, sallad, lök & kebabsås)\\n14. PSK SPECIAL (Kebab, pommes & kebabsås)\\n15. PARADISO (Svamp, fläskfilé & bearnaisesås)\\n16. VENEZIA (Fläskfilé, kronärtskocka, vitlök, tomater &\\nbearnaisesås)\\n17. GORGONZOLA (Svamp, fläskfilé & gorgonzola)\\n18. PEPPERONI (Pepperoni & basilika\\n19. BABYLON (Sucuk korv, paprika, lök, ägg & oliver)\\n20. RUSTICA (Fläskfilé, räkor, vitlök, köttfärs & kebabsås)\\n195\\nGOURMET PIZZOR\\n21. QUATTRO FORMAGGI (Gorgonzola, taleggio, parmesan\\n& mozzarella)\\n22. PARMA PIZZA (Prosciutto, ruccola, ört olja & tomater)\\n23. LA BREASOLA (Soltorkade tomater, vitlök, bresaola,\\nbasilika & parmesanost)\\n24. SALSICCA (Fior di latte ost, salsiccia & lök)\\n25. ARLECCHINO (Fior di latte ost, pesto, soltorkade tomater,\\nrucola & parmesan)\\n26. NDUJA SPICY (Nduja kött, chilifärs & burrata)\\n209\\n27. PROSCIOTTO DI BURRATA (Pesto di burrata, pestosås,\\ntomater, burrata, ruccola & pinjenötter)\\n28. TAR TUFO (T ryffelsås, bresaola, tomater, ruccola, citron & permesan\"},{\"@type\":\"MenuSection\",\"@id\":\"https://ilvicino.se/meny/#meny-3\",\"name\":\"Barn Meny\",\"description\":\"Pannkakor\\nMed sylt & grädde - 89\\nBarn burgare\\nMed pommes - 89\\nBarn pizza\\nV esuvio (Skinka) - 89\\nNuggets\\nMed pommes - 89\"},{\"@type\":\"MenuSection\",\"@id\":\"https://ilvicino.se/meny/#meny-4\",\"name\":\"Dessert\",\"description\":\"Friterad Camembert\\nMed hjortronsylt - 89\\nSorbet\\nMed smak av citron - 59\\nVanilj glass\\nMed bär - 69\\nTiramisu - 99\"}]}]}</script>"
+- navigation "Breadcrumbs":
+  - link "Test results":
+    - /url: ./test/rich-results/result?id=2v5KkpRn__MGpJ7OsKm-jA
+  - generic: 
+  - heading "Local businesses" [level=1]
+- button "Share":
+  - generic: 
+  - generic: Share
+- generic: check_circle
+- generic: 1 valid item detected
+- text: Valid items are eligible for Google Search's rich results.
+- link "Learn more":
+  - /url: https://support.google.com/webmasters/answer/9012289#enhancements
+- button "View tested page":
+  - generic: View tested page
+- button "See preview of your URL on Google Search":
+  - generic: Preview results
+- generic: Details
+- generic: Detected items
+- button "IL VICINO 2 non-critical issues null" [expanded] [active]:
+  - generic: check_circle
+  - generic: IL VICINO
+  - generic: 2 non-critical issues
+  - button "null":
+    - generic: 
+  - generic: 
+- button "Missing field \"priceRange\" (optional) Go to issue documentation":
+  - generic: Missing field "priceRange" (optional)
+  - generic "Go to issue documentation":
+    - link "Go to issue documentation":
+      - /url: https://developers.google.com/search/docs/data-types/local-business
+      - generic: 
+- button "Missing field \"servesCuisine\" (optional) Go to issue documentation":
+  - generic: Missing field "servesCuisine" (optional)
+  - generic "Go to issue documentation":
+    - link "Go to issue documentation":
+      - /url: https://developers.google.com/search/docs/data-types/local-business
+      - generic: 
+- button "type Restaurant":
+  - generic: type
+  - generic: Restaurant
+- button "id https://ilvicino.se/#restaurant":
+  - generic: id
+  - generic: https://ilvicino.se/#restaurant
+- button "name IL VICINO":
+  - generic: name
+  - generic: IL VICINO
+- button "url https://ilvicino.se/":
+  - generic: url
+  - generic: https://ilvicino.se/
+- button "logo https://ilvicino.se/assets/9d76905f8d.svg":
+  - generic: logo
+  - generic: https://ilvicino.se/assets/9d76905f8d.svg
+- button "image https://ilvicino.se/assets/5583f7603e.jpeg":
+  - generic: image
+  - generic: https://ilvicino.se/assets/5583f7603e.jpeg
+- button "telephone 08550-97000":
+  - generic: telephone
+  - generic: 08550-97000
+- button "email info@ilvicino.se":
+  - generic: email
+  - generic: info@ilvicino.se
+- button "address":
+  - generic: address
+- button "type PostalAddress":
+  - generic: type
+  - generic: PostalAddress
+- button "streetAddress Nyköpingsvägen 75":
+  - generic: streetAddress
+  - generic: Nyköpingsvägen 75
+- button "postalCode 15139":
+  - generic: postalCode
+  - generic: "15139"
+- button "addressLocality Södertälje":
+  - generic: addressLocality
+  - generic: Södertälje
+- button "hasMenu":
+  - generic: hasMenu
+- button "type Menu":
+  - generic: type
+  - generic: Menu
+- button "id https://ilvicino.se/meny/#menu":
+  - generic: id
+  - generic: https://ilvicino.se/meny/#menu
+- button "name Vår Meny":
+  - generic: name
+  - generic: Vår Meny
+- button "url https://ilvicino.se/meny/":
+  - generic: url
+  - generic: https://ilvicino.se/meny/
+- button "hasMenuSection":
+  - generic: hasMenuSection
+- button "type MenuSection":
+  - generic: type
+  - generic: MenuSection
+- button "id https://ilvicino.se/meny/#meny-0":
+  - generic: id
+  - generic: https://ilvicino.se/meny/#meny-0
+- button "name Förrätter":
+  - generic: name
+  - generic: Förrätter
+- button "description Toast Skagen På rostad surdegsbröd - 99 Buffalo Wings Med vitlöks dip 8st - 89 Nachos Med smältost, guacamole och salsa - 79 Mozzarella sticks Med vitlök dip 6st - 69 Jalapeño Poppers Med vitlöks dip 6st - 69 Chicken nuggets Med curry dip 6st - 69 Falafel Med sesamdressing 6st - 69 Combo Plates Med Wings, sticks poppers & nuggets med 2st dip - 159":
+  - generic: description
+  - generic: Toast Skagen På rostad surdegsbröd - 99 Buffalo Wings Med vitlöks dip 8st - 89 Nachos Med smältost, guacamole och salsa - 79 Mozzarella sticks Med vitlök dip 6st - 69 Jalapeño Poppers Med vitlöks dip 6st - 69 Chicken nuggets Med curry dip 6st - 69 Falafel Med sesamdressing 6st - 69 Combo Plates Med Wings, sticks poppers & nuggets med 2st dip - 159
+- button "hasMenuSection":
+  - generic: hasMenuSection
+- button "type MenuSection":
+  - generic: type
+  - generic: MenuSection
+- button "id https://ilvicino.se/meny/#meny-1":
+  - generic: id
+  - generic: https://ilvicino.se/meny/#meny-1
+- button "name Varmrätter":
+  - generic: name
+  - generic: Varmrätter
+- button "description Grillad Biff 200g med pommes, bea & rödvinssås - 199 Skomakarlåda 200g Biff, bacon, rödvinssky, purjolök & mos - 199 Schnitzel med bea rödvinssky & pommes - 169 Fläskfilé på planka med mos & bea rödvinssky - 179 Kyckling pasta med vitlök, soltorkade tomater & pesto - 159 Scampi pasta med vitt vin, vitlök, persilja & färsktomat - 169 Carbonara pancetta, äggula, lök & parmesan - 159 Oxfilé Pasta med tryffel & spenat - 169 Grillad kycklingfilé med currydressing & pommes - 159 Falukorv Sandwich med senap, stekt ägg & pommes - 139 Fish and chips med remouladsås - 149 Caesarsallad kyckling med bacon, krutonger & parmesan - 149 Scampi Caesarsallad med krutonger & parmesan - 159 Halloumi sallad med avokado & rhode-island dressing - 149 Halloumi burgare med chili Mayo & pommes - 149 BBQ burgare med bacon, cheddarost & pommes - 149":
+  - generic: description
+  - generic: Grillad Biff 200g med pommes, bea & rödvinssås - 199 Skomakarlåda 200g Biff, bacon, rödvinssky, purjolök & mos - 199 Schnitzel med bea rödvinssky & pommes - 169 Fläskfilé på planka med mos & bea rödvinssky - 179 Kyckling pasta med vitlök, soltorkade tomater & pesto - 159 Scampi pasta med vitt vin, vitlök, persilja & färsktomat - 169 Carbonara pancetta, äggula, lök & parmesan - 159 Oxfilé Pasta med tryffel & spenat - 169 Grillad kycklingfilé med currydressing & pommes - 159 Falukorv Sandwich med senap, stekt ägg & pommes - 139 Fish and chips med remouladsås - 149 Caesarsallad kyckling med bacon, krutonger & parmesan - 149 Scampi Caesarsallad med krutonger & parmesan - 159 Halloumi sallad med avokado & rhode-island dressing - 149 Halloumi burgare med chili Mayo & pommes - 149 BBQ burgare med bacon, cheddarost & pommes - 149
+- button "hasMenuSection":
+  - generic: hasMenuSection
+- button "type MenuSection":
+  - generic: type
+  - generic: MenuSection
+- button "id https://ilvicino.se/meny/#meny-2":
+  - generic: id
+  - generic: https://ilvicino.se/meny/#meny-2
+- button "name Pizzor":
+  - generic: name
+  - generic: Pizzor
+- button:
+  - generic: description
+  - generic: 129 1. MARGHERITA 2. AL FUNGHI (Svamp) 3. VESUVIO (Skinka) 4. CAPRICCIOSA (Skinka & Svamp) 5. CALZONE (Inbakad skinka) 6. HA W AII (Skinka & Ananas) 7. PESCATORE (Skinka & Räkor) 8. MEXICANA (Nötfärs, tacosås, vitlök, tacokrydda & jalapeño) 139 9. PIZZA POLLO (Kyckling, ananas & curry) 10. ROMANA (T onfisk, salami & lök) 11. VEGETARIANA (Svamp, paprika, lök & kronärtskocka) 12. ANCONA (Skinka, nötfärs & bearnaisesås) 13. KEBABPIZZA (Kebab, sallad, lök & kebabsås) 14. PSK SPECIAL (Kebab, pommes & kebabsås) 15. PARADISO (Svamp, fläskfilé & bearnaisesås) 16. VENEZIA (Fläskfilé, kronärtskocka, vitlök, tomater & bearnaisesås) 17. GORGONZOLA (Svamp, fläskfilé & gorgonzola) 18. PEPPERONI (Pepperoni & basilika 19. BABYLON (Sucuk korv, paprika, lök, ägg & oliver) 20. RUSTICA (Fläskfilé, räkor, vitlök, köttfärs & kebabsås) 195 GOURMET PIZZOR 21. QUATTRO FORMAGGI (Gorgonzola, taleggio, parmesan & mozzarella) 22. PARMA PIZZA (Prosciutto, ruccola, ört olja & tomater) 23. LA BREASOLA (Soltorkade tomater, vitlök, bresaola, basilika & parmesanost) 24. SALSICCA (Fior di latte ost, salsiccia & lök) 25. ARLECCHINO (Fior di latte ost, pesto, soltorkade tomater, rucola & parmesan) 26. NDUJA SPICY (Nduja kött, chilifärs & burrata) 209 27. PROSCIOTTO DI BURRATA (Pesto di burrata, pestosås, tomater, burrata, ruccola & pinjenötter) 28. TAR TUFO (T ryffelsås, bresaola, tomater, ruccola, citron & permesan
+- button "hasMenuSection":
+  - generic: hasMenuSection
+- button "type MenuSection":
+  - generic: type
+  - generic: MenuSection
+- button "id https://ilvicino.se/meny/#meny-3":
+  - generic: id
+  - generic: https://ilvicino.se/meny/#meny-3
+- button "name Barn Meny":
+  - generic: name
+  - generic: Barn Meny
+- button "description Pannkakor Med sylt & grädde - 89 Barn burgare Med pommes - 89 Barn pizza V esuvio (Skinka) - 89 Nuggets Med pommes - 89":
+  - generic: description
+  - generic: Pannkakor Med sylt & grädde - 89 Barn burgare Med pommes - 89 Barn pizza V esuvio (Skinka) - 89 Nuggets Med pommes - 89
+- button "hasMenuSection":
+  - generic: hasMenuSection
+- button "type MenuSection":
+  - generic: type
+  - generic: MenuSection
+- button "id https://ilvicino.se/meny/#meny-4":
+  - generic: id
+  - generic: https://ilvicino.se/meny/#meny-4
+- button "name Dessert":
+  - generic: name
+  - generic: Dessert
+- button "description Friterad Camembert Med hjortronsylt - 89 Sorbet Med smak av citron - 59 Vanilj glass Med bär - 69 Tiramisu - 99":
+  - generic: description
+  - generic: Friterad Camembert Med hjortronsylt - 89 Sorbet Med smak av citron - 59 Vanilj glass Med bär - 69 Tiramisu - 99
+- button "openingHoursSpecification":
+  - generic: openingHoursSpecification
+- button "type OpeningHoursSpecification":
+  - generic: type
+  - generic: OpeningHoursSpecification
+- button "dayOfWeek http://schema.org/Monday":
+  - generic: dayOfWeek
+  - generic: http://schema.org/Monday
+- button "dayOfWeek http://schema.org/Tuesday":
+  - generic: dayOfWeek
+  - generic: http://schema.org/Tuesday
+- button "dayOfWeek http://schema.org/Wednesday":
+  - generic: dayOfWeek
+  - generic: http://schema.org/Wednesday
+- button "dayOfWeek http://schema.org/Thursday":
+  - generic: dayOfWeek
+  - generic: http://schema.org/Thursday
+- button "opens T10:30":
+  - generic: opens
+  - generic: T10:30
+- button "closes T21:00":
+  - generic: closes
+  - generic: T21:00
+- button "openingHoursSpecification":
+  - generic: openingHoursSpecification
+- button "type OpeningHoursSpecification":
+  - generic: type
+  - generic: OpeningHoursSpecification
+- button "dayOfWeek http://schema.org/Friday":
+  - generic: dayOfWeek
+  - generic: http://schema.org/Friday
+- button "opens T10:30":
+  - generic: opens
+  - generic: T10:30
+- button "closes T22:00":
+  - generic: closes
+  - generic: T22:00
+- button "openingHoursSpecification":
+  - generic: openingHoursSpecification
+- button "type OpeningHoursSpecification":
+  - generic: type
+  - generic: OpeningHoursSpecification
+- button "dayOfWeek http://schema.org/Saturday":
+  - generic: dayOfWeek
+  - generic: http://schema.org/Saturday
+- button "opens T12:00":
+  - generic: opens
+  - generic: T12:00
+- button "closes T22:00":
+  - generic: closes
+  - generic: T22:00
+- button "openingHoursSpecification":
+  - generic: openingHoursSpecification
+- button "type OpeningHoursSpecification":
+  - generic: type
+  - generic: OpeningHoursSpecification
+- button "dayOfWeek http://schema.org/Sunday":
+  - generic: dayOfWeek
+  - generic: http://schema.org/Sunday
+- button "opens T12:00":
+  - generic: opens
+  - generic: T12:00
+- button "closes T20:00":
+  - generic: closes
+  - generic: T20:00
+- link "Privacy":
+  - /url: https://myaccount.google.com/privacypolicy?hl=en-US
+- link "Terms":
+  - /url: https://myaccount.google.com/termsofservice?hl=en-US
+- iframe [name="a-pg3zemalwcir"]:
+  - text: protected by
+  - strong: reCAPTCHA

@@ -1,0 +1,722 @@
+{
+  "home": {
+    "title": "Hem",
+    "blocks": [
+      [
+        {
+          "tag": "h1",
+          "text": "IL VICINO"
+        },
+        {
+          "tag": "h5",
+          "text": "I mysiga Pershagen hittar du IL VICINO (Grannskapet)– en kvarterskrog där smaker, gemenskap och kvalitet står i fokus. Här möts du av en avslappnad atmosfär där både grannar och besökare känner sig som hemma."
+        },
+        {
+          "tag": "p",
+          "text": "Vår meny är skapad för att passa alla tillfällen och smaker. Vi serverar allt från nygräddade pizzor och smakrika pastarätter till fräscha sallader, saftiga kötträtter och välkomponerade fiskrätter. Oavsett om du är ute efter en snabb lunch, en middag med familjen eller en kväll med vänner, har vi något för dig."
+        },
+        {
+          "tag": "p",
+          "text": "Hos oss lagas maten med omtanke och noggrant utvalda råvaror. Vi kombinerar klassiska favoriter med moderna influenser för att skapa en meny som både känns trygg och spännande."
+        },
+        {
+          "tag": "p",
+          "text": "Slå dig ner, koppla av och låt oss ta hand om dig. På Grannskapet är alla välkomna – precis som det ska vara på en riktig kvarterskrog."
+        },
+        {
+          "tag": "h5",
+          "text": "trivsamt ställe i Pershagen där matglädje och gemenskap möts"
+        }
+      ],
+      [
+        {
+          "tag": "h2",
+          "text": "Vårt kök"
+        },
+        {
+          "tag": "p",
+          "text": "På ilvicino.se lagar vi mat med hjärta och noga utvalda råvaror. Vi kombinerar klassiska smaker med moderna influenser för att skapa rätter som känns både trygga och spännande."
+        },
+        {
+          "tag": "p",
+          "text": "Vår passion är att ge dig en välkomnande upplevelse oavsett om du kommer för en snabb lunch eller en mysig middag med familj och vänner."
+        }
+      ],
+      [
+        {
+          "tag": "h2",
+          "text": "Varför välja oss"
+        },
+        {
+          "tag": "h5",
+          "text": "Ilvicino är din kvarterskrog i Pershagen där kvalitet, smak och gemenskap är i fokus"
+        }
+      ],
+      [
+        {
+          "tag": "h4",
+          "text": "Äkta kvarterskrogskänsla"
+        },
+        {
+          "tag": "h5",
+          "text": "En avslappnad och trivsam miljö där alla känner sig välkomna, från grannar till nya gäster"
+        }
+      ],
+      [
+        {
+          "tag": "h4",
+          "text": "Brett och varierat utbud"
+        },
+        {
+          "tag": "h5",
+          "text": "Från nygräddade pizzor till fräscha sallader och smakrika kötträtter – något för alla tillfällen"
+        }
+      ],
+      [
+        {
+          "tag": "h4",
+          "text": "Noga utvalda råvaror"
+        },
+        {
+          "tag": "h5",
+          "text": "Vi lagar maten med omtanke och använder ingredienser av högsta kvalitet för den bästa smakupplevelsen"
+        }
+      ],
+      [
+        {
+          "tag": "h2",
+          "text": "Privata evenemang"
+        },
+        {
+          "tag": "p",
+          "text": "Planerar du en fest, ett företagsevent eller ett annat tillfälle? Ilvicino erbjuder en hemtrevlig och inbjudande miljö för alla slags sammankomster."
+        },
+        {
+          "tag": "p",
+          "text": "Vi anpassar menyn efter dina önskemål och erbjuder personlig service för att göra ditt evenemang minnesvärt."
+        }
+      ],
+      [
+        {
+          "tag": "h2",
+          "text": "Omdömen"
+        },
+        {
+          "tag": "h5",
+          "text": "Våra gäster uppskattar den varma atmosfären och den omsorgsfullt lagade maten på ilvicino.se"
+        }
+      ],
+      [
+        {
+          "tag": "h5",
+          "text": "— Anna L."
+        },
+        {
+          "tag": "blockquote",
+          "text": "\"En riktig pärla i Pershagen – fantastisk mat och supertrevlig stämning!\""
+        }
+      ],
+      [
+        {
+          "tag": "h5",
+          "text": "— Erik S."
+        },
+        {
+          "tag": "blockquote",
+          "text": "\"Vi kände oss som hemma direkt. Perfekt för en avslappnad kväll med vänner.\""
+        }
+      ],
+      [
+        {
+          "tag": "h5",
+          "text": "— Maria K."
+        },
+        {
+          "tag": "blockquote",
+          "text": "\"Mat av hög kvalitet och en atmosfär som inbjuder till återkommande besök.\""
+        }
+      ],
+      [
+        {
+          "tag": "h2",
+          "text": "Boknings- och kontaktformulär"
+        }
+      ],
+      [
+        {
+          "tag": "h2",
+          "text": "Kontakta oss eller boka bord!"
+        },
+        {
+          "tag": "h5",
+          "text": "Fyll i formuläret nedan så återkommer vi så snart som möjligt"
+        }
+      ],
+      [
+        {
+          "tag": "h5",
+          "text": "Ett trivsamt ställe i Pershagen där matglädje och gemenskap möts"
+        }
+      ]
+    ],
+    "images": [
+      "/assets/9d76905f8d.svg",
+      "/assets/5583f7603e.jpeg",
+      "/assets/a22d060833.jpeg",
+      "/assets/10a0145e25.png",
+      "/assets/ce663b874d.jpeg",
+      "/assets/b69b87d0ce.jpeg",
+      "/assets/14c7d9f18e.jpeg",
+      "/assets/b01c3f5e1a.jpeg",
+      "/assets/9d76905f8d.svg"
+    ],
+    "ids": [
+      "ws-cookie-banner",
+      "ws-site-header-wrapper",
+      "ws-color-palette",
+      "ws-custom-fonts",
+      "ws-theme-dependencies",
+      "ws-button-preset",
+      "text-color-options",
+      "other-styles",
+      "ws-block-local-header-with-phone-Btbl6I8U",
+      "ws-nav-sidebar",
+      "ws-block-custom-RUiWUnSC",
+      "ws-block-widget-text-block-title-if1VULUB",
+      "ws-block-widget-spacer-gS8OclqD",
+      "ws-block-widget-spacer-bam2j33P",
+      "ws-block-widget-image-Y5sEABC1",
+      "ws-block-services-with-media-iBoPBdAb",
+      "ws-block-about-splitscreen-with-overlaying-media-W5CvG6TW",
+      "ws-block-features-with-icons-ZA6Ks83G",
+      "ws-block-about-splitscreen-with-overlaying-media-wuZIdl9Y",
+      "ws-block-testimonials-with-media-EL7TogMh",
+      "ws-block-contacts-with-contact-form-UbkyDJeC",
+      "input-1-jfc3pCjS",
+      "input-2-ccnqDsHo",
+      "textarea-1-HZwEyndx",
+      "ws-block-local-footer-with-business-info-and-links-dxGusdBw",
+      "form-output-global",
+      "ws-site-footer-wrapper",
+      "site_analytics_tracking"
+    ],
+    "links": [
+      {
+        "text": "ilvicino.se",
+        "href": "/"
+      },
+      {
+        "text": "Hem",
+        "href": "/"
+      },
+      {
+        "text": "Meny",
+        "href": "/meny/"
+      },
+      {
+        "text": "Boka bord",
+        "href": "/#ws-block-contacts-with-contact-form-UbkyDJeC"
+      },
+      {
+        "text": "Boka bord",
+        "href": "/#ws-block-contacts-with-contact-form-UbkyDJeC"
+      },
+      {
+        "text": "info@ilvicino.se",
+        "href": "mailto:info@ilvicino.se"
+      },
+      {
+        "text": "ilvicino.se",
+        "href": "/"
+      },
+      {
+        "text": "Hem",
+        "href": "#"
+      },
+      {
+        "text": "Funktioner",
+        "href": "#"
+      },
+      {
+        "text": "Prissättning",
+        "href": "#"
+      },
+      {
+        "text": "Omdömen",
+        "href": "#"
+      },
+      {
+        "text": "Kontakt",
+        "href": "#"
+      },
+      {
+        "text": "Blogg",
+        "href": "#"
+      },
+      {
+        "text": "info@ilvicino.se",
+        "href": "mailto:info@ilvicino.se"
+      },
+      {
+        "text": "",
+        "href": "#"
+      },
+      {
+        "text": "",
+        "href": "#"
+      },
+      {
+        "text": "",
+        "href": "#"
+      },
+      {
+        "text": "",
+        "href": "#"
+      }
+    ]
+  },
+  "meny": {
+    "title": "Meny | ilvicino.se",
+    "blocks": [
+      [
+        {
+          "tag": "h2",
+          "text": "Vår Meny"
+        },
+        {
+          "tag": "h5",
+          "text": "Upptäck en meny fylld med smaker och rätter för alla tillfällen."
+        }
+      ],
+      [
+        {
+          "tag": "p",
+          "text": "il Vicino"
+        },
+        {
+          "tag": "h3",
+          "text": "Förrätter"
+        },
+        {
+          "tag": "p",
+          "text": "Toast Skagen"
+        },
+        {
+          "tag": "p",
+          "text": "På rostad surdegsbröd - 99"
+        },
+        {
+          "tag": "p",
+          "text": "Buffalo Wings"
+        },
+        {
+          "tag": "p",
+          "text": "Med vitlöks dip 8st - 89"
+        },
+        {
+          "tag": "p",
+          "text": "Nachos"
+        },
+        {
+          "tag": "p",
+          "text": "Med smältost, guacamole och salsa - 79"
+        },
+        {
+          "tag": "p",
+          "text": "Mozzarella sticks"
+        },
+        {
+          "tag": "p",
+          "text": "Med vitlök dip 6st - 69"
+        },
+        {
+          "tag": "p",
+          "text": "Jalapeño Poppers"
+        },
+        {
+          "tag": "p",
+          "text": "Med vitlöks dip 6st - 69"
+        },
+        {
+          "tag": "p",
+          "text": "Chicken nuggets"
+        },
+        {
+          "tag": "p",
+          "text": "Med curry dip 6st - 69"
+        },
+        {
+          "tag": "p",
+          "text": "Falafel"
+        },
+        {
+          "tag": "p",
+          "text": "Med sesamdressing 6st - 69"
+        },
+        {
+          "tag": "p",
+          "text": "Combo Plates"
+        },
+        {
+          "tag": "p",
+          "text": "Med Wings, sticks poppers & nuggets med 2st dip - 159"
+        },
+        {
+          "tag": "h3",
+          "text": "Varmrätter"
+        },
+        {
+          "tag": "p",
+          "text": "Grillad Biff 200g med pommes, bea & rödvinssås - 199"
+        },
+        {
+          "tag": "p",
+          "text": "Skomakarlåda 200g Biff, bacon, rödvinssky, purjolök & mos - 199"
+        },
+        {
+          "tag": "p",
+          "text": "Schnitzel med bea rödvinssky & pommes - 169"
+        },
+        {
+          "tag": "p",
+          "text": "Fläskfilé på planka med mos & bea rödvinssky - 179"
+        },
+        {
+          "tag": "p",
+          "text": "Kyckling pasta med vitlök, soltorkade tomater & pesto - 159"
+        },
+        {
+          "tag": "p",
+          "text": "Scampi pasta med vitt vin, vitlök, persilja & färsktomat - 169"
+        },
+        {
+          "tag": "p",
+          "text": "Carbonara pancetta, äggula, lök & parmesan - 159"
+        },
+        {
+          "tag": "p",
+          "text": "Oxfilé Pasta med tryffel & spenat - 169"
+        },
+        {
+          "tag": "p",
+          "text": "Grillad kycklingfilé med currydressing & pommes - 159"
+        },
+        {
+          "tag": "p",
+          "text": "Falukorv Sandwich med senap, stekt ägg & pommes - 139"
+        },
+        {
+          "tag": "p",
+          "text": "Fish and chips med remouladsås - 149"
+        },
+        {
+          "tag": "p",
+          "text": "Caesarsallad kyckling med bacon, krutonger & parmesan - 149"
+        },
+        {
+          "tag": "p",
+          "text": "Scampi Caesarsallad med krutonger & parmesan - 159"
+        },
+        {
+          "tag": "p",
+          "text": "Halloumi sallad med avokado & rhode-island dressing - 149"
+        },
+        {
+          "tag": "p",
+          "text": "Halloumi burgare med chili Mayo & pommes - 149"
+        },
+        {
+          "tag": "p",
+          "text": "BBQ burgare med bacon, cheddarost & pommes - 149"
+        },
+        {
+          "tag": "h3",
+          "text": "Pizzor"
+        },
+        {
+          "tag": "p",
+          "text": "129"
+        },
+        {
+          "tag": "p",
+          "text": "1. MARGHERITA"
+        },
+        {
+          "tag": "p",
+          "text": "2. AL FUNGHI (Svamp)"
+        },
+        {
+          "tag": "p",
+          "text": "3. VESUVIO (Skinka)"
+        },
+        {
+          "tag": "p",
+          "text": "4. CAPRICCIOSA (Skinka & Svamp)"
+        },
+        {
+          "tag": "p",
+          "text": "5. CALZONE (Inbakad skinka)"
+        },
+        {
+          "tag": "p",
+          "text": "6. HA W AII (Skinka & Ananas)"
+        },
+        {
+          "tag": "p",
+          "text": "7. PESCATORE (Skinka & Räkor)"
+        },
+        {
+          "tag": "p",
+          "text": "8. MEXICANA (Nötfärs, tacosås, vitlök, tacokrydda & jalapeño)"
+        },
+        {
+          "tag": "p",
+          "text": "139"
+        },
+        {
+          "tag": "p",
+          "text": "9. PIZZA POLLO (Kyckling, ananas & curry)"
+        },
+        {
+          "tag": "p",
+          "text": "10. ROMANA (T onfisk, salami & lök)"
+        },
+        {
+          "tag": "p",
+          "text": "11. VEGETARIANA (Svamp, paprika, lök & kronärtskocka)"
+        },
+        {
+          "tag": "p",
+          "text": "12. ANCONA (Skinka, nötfärs & bearnaisesås)"
+        },
+        {
+          "tag": "p",
+          "text": "13. KEBABPIZZA (Kebab, sallad, lök & kebabsås)"
+        },
+        {
+          "tag": "p",
+          "text": "14. PSK SPECIAL (Kebab, pommes & kebabsås)"
+        },
+        {
+          "tag": "p",
+          "text": "15. PARADISO (Svamp, fläskfilé & bearnaisesås)"
+        },
+        {
+          "tag": "p",
+          "text": "16. VENEZIA (Fläskfilé, kronärtskocka, vitlök, tomater &"
+        },
+        {
+          "tag": "p",
+          "text": "bearnaisesås)"
+        },
+        {
+          "tag": "p",
+          "text": "17. GORGONZOLA (Svamp, fläskfilé & gorgonzola)"
+        },
+        {
+          "tag": "p",
+          "text": "18. PEPPERONI (Pepperoni & basilika"
+        },
+        {
+          "tag": "p",
+          "text": "19. BABYLON (Sucuk korv, paprika, lök, ägg & oliver)"
+        },
+        {
+          "tag": "p",
+          "text": "20. RUSTICA (Fläskfilé, räkor, vitlök, köttfärs & kebabsås)"
+        },
+        {
+          "tag": "p",
+          "text": "195"
+        },
+        {
+          "tag": "p",
+          "text": "GOURMET PIZZOR"
+        },
+        {
+          "tag": "p",
+          "text": "21. QUATTRO FORMAGGI (Gorgonzola, taleggio, parmesan"
+        },
+        {
+          "tag": "p",
+          "text": "& mozzarella)"
+        },
+        {
+          "tag": "p",
+          "text": "22. PARMA PIZZA (Prosciutto, ruccola, ört olja & tomater)"
+        },
+        {
+          "tag": "p",
+          "text": "23. LA BREASOLA (Soltorkade tomater, vitlök, bresaola,"
+        },
+        {
+          "tag": "p",
+          "text": "basilika & parmesanost)"
+        },
+        {
+          "tag": "p",
+          "text": "24. SALSICCA (Fior di latte ost, salsiccia & lök)"
+        },
+        {
+          "tag": "p",
+          "text": "25. ARLECCHINO (Fior di latte ost, pesto, soltorkade tomater,"
+        },
+        {
+          "tag": "p",
+          "text": "rucola & parmesan)"
+        },
+        {
+          "tag": "p",
+          "text": "26. NDUJA SPICY (Nduja kött, chilifärs & burrata)"
+        },
+        {
+          "tag": "p",
+          "text": "209"
+        },
+        {
+          "tag": "p",
+          "text": "27. PROSCIOTTO DI BURRATA (Pesto di burrata, pestosås,"
+        },
+        {
+          "tag": "p",
+          "text": "tomater, burrata, ruccola & pinjenötter)"
+        },
+        {
+          "tag": "p",
+          "text": "28. TAR TUFO (T ryffelsås, bresaola, tomater, ruccola, citron & permesan"
+        },
+        {
+          "tag": "h3",
+          "text": "Barn Meny"
+        },
+        {
+          "tag": "p",
+          "text": "Pannkakor"
+        },
+        {
+          "tag": "p",
+          "text": "Med sylt & grädde - 89"
+        },
+        {
+          "tag": "p",
+          "text": "Barn burgare"
+        },
+        {
+          "tag": "p",
+          "text": "Med pommes - 89"
+        },
+        {
+          "tag": "p",
+          "text": "Barn pizza"
+        },
+        {
+          "tag": "p",
+          "text": "V esuvio (Skinka) - 89"
+        },
+        {
+          "tag": "p",
+          "text": "Nuggets"
+        },
+        {
+          "tag": "p",
+          "text": "Med pommes - 89"
+        },
+        {
+          "tag": "h3",
+          "text": "Dessert"
+        },
+        {
+          "tag": "p",
+          "text": "Friterad Camembert"
+        },
+        {
+          "tag": "p",
+          "text": "Med hjortronsylt - 89"
+        },
+        {
+          "tag": "p",
+          "text": "Sorbet"
+        },
+        {
+          "tag": "p",
+          "text": "Med smak av citron - 59"
+        },
+        {
+          "tag": "p",
+          "text": "Vanilj glass"
+        },
+        {
+          "tag": "p",
+          "text": "Med bär - 69"
+        },
+        {
+          "tag": "p",
+          "text": "Tiramisu - 99"
+        },
+        {
+          "tag": "p",
+          "text": ""
+        }
+      ],
+      [
+        {
+          "tag": "h2",
+          "text": "Besök oss på ILvicino idag!"
+        },
+        {
+          "tag": "h5",
+          "text": "Kom förbi oss på Nyköpingsvägen 75 för en oförglömlig matupplevelse. Boka ditt bord nu och njut av vår utsökta meny! Kontakta oss på 08550-97000."
+        }
+      ]
+    ],
+    "images": [
+      "/assets/41fb500318.jpg"
+    ],
+    "ids": [
+      "ws-generated-atomic-styles",
+      "ws-cookie-banner",
+      "ws-site-header-wrapper",
+      "ws-color-palette",
+      "ws-custom-fonts",
+      "ws-theme-dependencies",
+      "ws-button-preset",
+      "text-color-options",
+      "other-styles",
+      "ws-block-local-header-with-topbar-XLmqqNAJ",
+      "ws-nav-sidebar",
+      "ws-block-products-with-media-IkPQ5096",
+      "ws-block-products-with-media-wAViFiA8",
+      "ws-block-cta-with-extra-content-bg-image-DZvwRB5U",
+      "ws-block-local-footer-with-centered-content-NGGS6W8b",
+      "form-output-global",
+      "ws-site-footer-wrapper",
+      "site_analytics_tracking"
+    ],
+    "links": [
+      {
+        "text": "ilvicino.se",
+        "href": "/"
+      },
+      {
+        "text": "Hem",
+        "href": "/"
+      },
+      {
+        "text": "Meny",
+        "href": "/meny/"
+      },
+      {
+        "text": "Utforska",
+        "href": "#"
+      },
+      {
+        "text": "Utforska",
+        "href": "#"
+      },
+      {
+        "text": "",
+        "href": "/"
+      }
+    ]
+  }
+}

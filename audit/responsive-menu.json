@@ -1,0 +1,22 @@
+[
+  {
+    "route": "/meny/",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "route": "/meny/",
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "route": "/meny/",
+    "scrollWidth": 1024,
+    "width": 1024
+  },
+  {
+    "route": "/meny/",
+    "scrollWidth": 1440,
+    "width": 1440
+  }
+]

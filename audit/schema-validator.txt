@@ -1,0 +1,961 @@
+- link "Schema.org":
+  - /url: https://schema.org/
+- list:
+  - link "Documentation":
+    - /url: https://schema.org/docs/documents.html
+  - link "Schemas":
+    - /url: https://schema.org/docs/schemas.html
+  - link "Validate":
+    - /url: /
+  - link "About":
+    - /url: https://schema.org/docs/about.html
+- textbox "search"
+- generic: public
+- button "Run new test"
+- button "language_japanese_kana":
+  - generic: language_japanese_kana
+- button "info":
+  - generic: info
+- textbox
+- generic: "1"
+- text: "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Restaurant\",\"@id\":\"https://ilvicino.se/#restaurant\",\"name\":\"IL VICINO\",\"url\":\"https://ilvicino.se/\",\"logo\":\"https://ilvicino.se/assets/9d76905f8d.svg\",\"image\":\"https://ilvicino.se/assets/5583f7603e.jpeg\",\"telephone\":\"08550-97000\",\"email\":\"info@ilvicino.se\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"Nyköpingsvägen 75\",\"postalCode\":\"15139\",\"addressLocality\":\"Södertälje\"},\"hasMenu\":{\"@id\":\"https://ilvicino.se/meny/#menu\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"10:30\",\"closes\":\"21:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Friday\",\"opens\":\"10:30\",\"closes\":\"22:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Saturday\",\"opens\":\"12:00\",\"closes\":\"22:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Sunday\",\"opens\":\"12:00\",\"closes\":\"20:00\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://ilvicino.se/#website\",\"url\":\"https://ilvicino.se/\",\"name\":\"ilvicino.se\",\"inLanguage\":\"sv\",\"publisher\":{\"@id\":\"https://ilvicino.se/#restaurant\"}},{\"@type\":\"WebPage\",\"@id\":\"https://ilvicino.se/meny/#webpage\",\"url\":\"https://ilvicino.se/meny/\",\"name\":\"Meny | ilvicino.se\",\"inLanguage\":\"sv\",\"isPartOf\":{\"@id\":\"https://ilvicino.se/#website\"},\"about\":{\"@id\":\"https://ilvicino.se/#restaurant\"},\"mainEntity\":{\"@id\":\"https://ilvicino.se/meny/#menu\"},\"breadcrumb\":{\"@id\":\"https://ilvicino.se/meny/#breadcrumb\"}},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://ilvicino.se/meny/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Hem\",\"item\":\"https://ilvicino.se/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Meny\",\"item\":\"https://ilvicino.se/meny/\"}]},{\"@type\":\"Menu\",\"@id\":\"https://ilvicino.se/meny/#menu\",\"name\":\"Vår Meny\",\"url\":\"https://ilvicino.se/meny/\",\"hasMenuSection\":[{\"@type\":\"MenuSection\",\"@id\":\"https://ilvicino.se/meny/#meny-0\",\"name\":\"Förrätter\",\"description\":\"Toast Skagen\\nPå rostad surdegsbröd - 99\\nBuffalo Wings\\nMed vitlöks dip 8st - 89\\nNachos\\nMed smältost, guacamole och salsa - 79\\nMozzarella sticks\\nMed vitlök dip 6st - 69\\nJalapeño Poppers\\nMed vitlöks dip 6st - 69\\nChicken nuggets\\nMed curry dip 6st - 69\\nFalafel\\nMed sesamdressing 6st - 69\\nCombo Plates\\nMed Wings, sticks poppers & nuggets med 2st dip - 159\"},{\"@type\":\"MenuSection\",\"@id\":\"https://ilvicino.se/meny/#meny-1\",\"name\":\"Varmrätter\",\"description\":\"Grillad Biff 200g med pommes, bea & rödvinssås - 199\\nSkomakarlåda 200g Biff, bacon, rödvinssky, purjolök & mos - 199\\nSchnitzel med bea rödvinssky & pommes - 169\\nFläskfilé på planka med mos & bea rödvinssky - 179\\nKyckling pasta med vitlök, soltorkade tomater & pesto - 159\\nScampi pasta med vitt vin, vitlök, persilja & färsktomat - 169\\nCarbonara pancetta, äggula, lök & parmesan - 159\\nOxfilé Pasta med tryffel & spenat - 169\\nGrillad kycklingfilé med currydressing & pommes - 159\\nFalukorv Sandwich med senap, stekt ägg & pommes - 139\\nFish and chips med remouladsås - 149\\nCaesarsallad kyckling med bacon, krutonger & parmesan - 149\\nScampi Caesarsallad med krutonger & parmesan - 159\\nHalloumi sallad med avokado & rhode-island dressing - 149\\nHalloumi burgare med chili Mayo & pommes - 149\\nBBQ burgare med bacon, cheddarost & pommes - 149\"},{\"@type\":\"MenuSection\",\"@id\":\"https://ilvicino.se/meny/#meny-2\",\"name\":\"Pizzor\",\"description\":\"129\\n1. MARGHERITA\\n2. AL FUNGHI (Svamp)\\n3. VESUVIO (Skinka)\\n4. CAPRICCIOSA (Skinka & Svamp)\\n5. CALZONE (Inbakad skinka)\\n6. HA W AII (Skinka & Ananas)\\n7. PESCATORE (Skinka & Räkor)\\n8. MEXICANA (Nötfärs, tacosås, vitlök, tacokrydda & jalapeño)\\n139\\n9. PIZZA POLLO (Kyckling, ananas & curry)\\n10. ROMANA (T onfisk, salami & lök)\\n11. VEGETARIANA (Svamp, paprika, lök & kronärtskocka)\\n12. ANCONA (Skinka, nötfärs & bearnaisesås)\\n13. KEBABPIZZA (Kebab, sallad, lök & kebabsås)\\n14. PSK SPECIAL (Kebab, pommes & kebabsås)\\n15. PARADISO (Svamp, fläskfilé & bearnaisesås)\\n16. VENEZIA (Fläskfilé, kronärtskocka, vitlök, tomater &\\nbearnaisesås)\\n17. GORGONZOLA (Svamp, fläskfilé & gorgonzola)\\n18. PEPPERONI (Pepperoni & basilika\\n19. BABYLON (Sucuk korv, paprika, lök, ägg & oliver)\\n20. RUSTICA (Fläskfilé, räkor, vitlök, köttfärs & kebabsås)\\n195\\nGOURMET PIZZOR\\n21. QUATTRO FORMAGGI (Gorgonzola, taleggio, parmesan\\n& mozzarella)\\n22. PARMA PIZZA (Prosciutto, ruccola, ört olja & tomater)\\n23. LA BREASOLA (Soltorkade tomater, vitlök, bresaola,\\nbasilika & parmesanost)\\n24. SALSICCA (Fior di latte ost, salsiccia & lök)\\n25. ARLECCHINO (Fior di latte ost, pesto, soltorkade tomater,\\nrucola & parmesan)\\n26. NDUJA SPICY (Nduja kött, chilifärs & burrata)\\n209\\n27. PROSCIOTTO DI BURRATA (Pesto di burrata, pestosås,\\ntomater, burrata, ruccola & pinjenötter)\\n28. TAR TUFO (T ryffelsås, bresaola, tomater, ruccola, citron & permesan\"},{\"@type\":\"MenuSection\",\"@id\":\"https://ilvicino.se/meny/#meny-3\",\"name\":\"Barn Meny\",\"description\":\"Pannkakor\\nMed sylt & grädde - 89\\nBarn burgare\\nMed pommes - 89\\nBarn pizza\\nV esuvio (Skinka) - 89\\nNuggets\\nMed pommes - 89\"},{\"@type\":\"MenuSection\",\"@id\":\"https://ilvicino.se/meny/#meny-4\",\"name\":\"Dessert\",\"description\":\"Friterad Camembert\\nMed hjortronsylt - 89\\nSorbet\\nMed smak av citron - 59\\nVanilj glass\\nMed bär - 69\\nTiramisu - 99\"}]}]}</script>"
+- generic: WebPage
+- button "All (1) arrow_drop_down":
+  - text: All (1)
+  - generic: arrow_drop_down
+- list:
+  - text: WebPage
+  - generic: "ID: https://ilvicino.se/meny/#webpage"
+  - generic: 0 ERRORS
+  - generic: 0 WARNINGS
+  - generic: expand_less
+  - table:
+    - rowgroup:
+      - row "@type WebPage":
+        - cell "@type":
+          - generic: "@type"
+        - cell "WebPage":
+          - generic: WebPage
+      - row "@id https://ilvicino.se/meny/#webpage":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#webpage":
+          - generic: https://ilvicino.se/meny/#webpage
+      - row "url https://ilvicino.se/meny/":
+        - cell "url":
+          - generic: url
+        - cell "https://ilvicino.se/meny/":
+          - generic: https://ilvicino.se/meny/
+      - row "name Meny | ilvicino.se":
+        - cell "name":
+          - generic: name
+        - cell "Meny | ilvicino.se":
+          - generic: Meny | ilvicino.se
+      - row "inLanguage sv":
+        - cell "inLanguage":
+          - generic: inLanguage
+        - cell "sv":
+          - generic: sv
+      - row "isPartOf":
+        - cell "isPartOf":
+          - generic: isPartOf
+        - cell
+      - row "@type WebSite":
+        - cell "@type":
+          - generic: "@type"
+        - cell "WebSite":
+          - generic: WebSite
+      - row "@id https://ilvicino.se/#website":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/#website":
+          - generic: https://ilvicino.se/#website
+      - row "url https://ilvicino.se/":
+        - cell "url":
+          - generic: url
+        - cell "https://ilvicino.se/":
+          - generic: https://ilvicino.se/
+      - row "name ilvicino.se":
+        - cell "name":
+          - generic: name
+        - cell "ilvicino.se":
+          - generic: ilvicino.se
+      - row "inLanguage sv":
+        - cell "inLanguage":
+          - generic: inLanguage
+        - cell "sv":
+          - generic: sv
+      - row "publisher":
+        - cell "publisher":
+          - generic: publisher
+        - cell
+      - row "@type Restaurant":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Restaurant":
+          - generic: Restaurant
+      - row "@id https://ilvicino.se/#restaurant":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/#restaurant":
+          - generic: https://ilvicino.se/#restaurant
+      - row "name IL VICINO":
+        - cell "name":
+          - generic: name
+        - cell "IL VICINO":
+          - generic: IL VICINO
+      - row "url https://ilvicino.se/":
+        - cell "url":
+          - generic: url
+        - cell "https://ilvicino.se/":
+          - generic: https://ilvicino.se/
+      - row "logo https://ilvicino.se/assets/9d76905f8d.svg":
+        - cell "logo":
+          - generic: logo
+        - cell "https://ilvicino.se/assets/9d76905f8d.svg":
+          - generic: https://ilvicino.se/assets/9d76905f8d.svg
+      - row "image https://ilvicino.se/assets/5583f7603e.jpeg":
+        - cell "image":
+          - generic: image
+        - cell "https://ilvicino.se/assets/5583f7603e.jpeg":
+          - generic: https://ilvicino.se/assets/5583f7603e.jpeg
+      - row "telephone 08550-97000":
+        - cell "telephone":
+          - generic: telephone
+        - cell "08550-97000":
+          - generic: 08550-97000
+      - row "email info@ilvicino.se":
+        - cell "email":
+          - generic: email
+        - cell "info@ilvicino.se":
+          - generic: info@ilvicino.se
+      - row "address":
+        - cell "address":
+          - generic: address
+        - cell
+      - row "@type PostalAddress":
+        - cell "@type":
+          - generic: "@type"
+        - cell "PostalAddress":
+          - generic: PostalAddress
+      - row "streetAddress Nyköpingsvägen 75":
+        - cell "streetAddress":
+          - generic: streetAddress
+        - cell "Nyköpingsvägen 75":
+          - generic: Nyköpingsvägen 75
+      - row "postalCode 15139":
+        - cell "postalCode":
+          - generic: postalCode
+        - cell "15139":
+          - generic: "15139"
+      - row "addressLocality Södertälje":
+        - cell "addressLocality":
+          - generic: addressLocality
+        - cell "Södertälje":
+          - generic: Södertälje
+      - row "hasMenu":
+        - cell "hasMenu":
+          - generic: hasMenu
+        - cell
+      - row "@type Menu":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Menu":
+          - generic: Menu
+      - row "@id https://ilvicino.se/meny/#menu":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#menu":
+          - generic: https://ilvicino.se/meny/#menu
+      - row "name Vår Meny":
+        - cell "name":
+          - generic: name
+        - cell "Vår Meny":
+          - generic: Vår Meny
+      - row "url https://ilvicino.se/meny/":
+        - cell "url":
+          - generic: url
+        - cell "https://ilvicino.se/meny/":
+          - generic: https://ilvicino.se/meny/
+      - row "hasMenuSection":
+        - cell "hasMenuSection":
+          - generic: hasMenuSection
+        - cell
+      - row "@type MenuSection":
+        - cell "@type":
+          - generic: "@type"
+        - cell "MenuSection":
+          - generic: MenuSection
+      - row "@id https://ilvicino.se/meny/#meny-0":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#meny-0":
+          - generic: https://ilvicino.se/meny/#meny-0
+      - row "name Förrätter":
+        - cell "name":
+          - generic: name
+        - cell "Förrätter":
+          - generic: Förrätter
+      - row "description Toast Skagen På rostad surdegsbröd - 99 Buffalo Wings Med vitlöks dip 8st - 89 Nachos Med smältost, guacamole och salsa - 79 Mozzarella sticks Med vitlök dip 6st - 69 Jalapeño Poppers Med vitlöks dip 6st - 69 Chicken nuggets Med curry dip 6st - 69 Falafel Med sesamdressing 6st - 69 Combo Plates Med Wings, sticks poppers & nuggets med 2st dip - 159":
+        - cell "description":
+          - generic: description
+        - cell "Toast Skagen På rostad surdegsbröd - 99 Buffalo Wings Med vitlöks dip 8st - 89 Nachos Med smältost, guacamole och salsa - 79 Mozzarella sticks Med vitlök dip 6st - 69 Jalapeño Poppers Med vitlöks dip 6st - 69 Chicken nuggets Med curry dip 6st - 69 Falafel Med sesamdressing 6st - 69 Combo Plates Med Wings, sticks poppers & nuggets med 2st dip - 159":
+          - generic: Toast Skagen På rostad surdegsbröd - 99 Buffalo Wings Med vitlöks dip 8st - 89 Nachos Med smältost, guacamole och salsa - 79 Mozzarella sticks Med vitlök dip 6st - 69 Jalapeño Poppers Med vitlöks dip 6st - 69 Chicken nuggets Med curry dip 6st - 69 Falafel Med sesamdressing 6st - 69 Combo Plates Med Wings, sticks poppers & nuggets med 2st dip - 159
+      - row "hasMenuSection":
+        - cell "hasMenuSection":
+          - generic: hasMenuSection
+        - cell
+      - row "@type MenuSection":
+        - cell "@type":
+          - generic: "@type"
+        - cell "MenuSection":
+          - generic: MenuSection
+      - row "@id https://ilvicino.se/meny/#meny-1":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#meny-1":
+          - generic: https://ilvicino.se/meny/#meny-1
+      - row "name Varmrätter":
+        - cell "name":
+          - generic: name
+        - cell "Varmrätter":
+          - generic: Varmrätter
+      - row "description Grillad Biff 200g med pommes, bea & rödvinssås - 199 Skomakarlåda 200g Biff, bacon, rödvinssky, purjolök & mos - 199 Schnitzel med bea rödvinssky & pommes - 169 Fläskfilé på planka med mos & bea rödvinssky - 179 Kyckling pasta med vitlök, soltorkade tomater & pesto - 159 Scampi pasta med vitt vin, vitlök, persilja & färsktomat - 169 Carbonara pancetta, äggula, lök & parmesan - 159 Oxfilé Pasta med tryffel & spenat - 169 Grillad kycklingfilé med currydressing & pommes - 159 Falukorv Sandwich med senap, stekt ägg & pommes - 139 Fish and chips med remouladsås - 149 Caesarsallad kyckling med bacon, krutonger & parmesan - 149 Scampi Caesarsallad med krutonger & parmesan - 159 Halloumi sallad med avokado & rhode-island dressing - 149 Halloumi burgare med chili Mayo & pommes - 149 BBQ burgare med bacon, cheddarost & pommes - 149":
+        - cell "description":
+          - generic: description
+        - cell "Grillad Biff 200g med pommes, bea & rödvinssås - 199 Skomakarlåda 200g Biff, bacon, rödvinssky, purjolök & mos - 199 Schnitzel med bea rödvinssky & pommes - 169 Fläskfilé på planka med mos & bea rödvinssky - 179 Kyckling pasta med vitlök, soltorkade tomater & pesto - 159 Scampi pasta med vitt vin, vitlök, persilja & färsktomat - 169 Carbonara pancetta, äggula, lök & parmesan - 159 Oxfilé Pasta med tryffel & spenat - 169 Grillad kycklingfilé med currydressing & pommes - 159 Falukorv Sandwich med senap, stekt ägg & pommes - 139 Fish and chips med remouladsås - 149 Caesarsallad kyckling med bacon, krutonger & parmesan - 149 Scampi Caesarsallad med krutonger & parmesan - 159 Halloumi sallad med avokado & rhode-island dressing - 149 Halloumi burgare med chili Mayo & pommes - 149 BBQ burgare med bacon, cheddarost & pommes - 149":
+          - generic: Grillad Biff 200g med pommes, bea & rödvinssås - 199 Skomakarlåda 200g Biff, bacon, rödvinssky, purjolök & mos - 199 Schnitzel med bea rödvinssky & pommes - 169 Fläskfilé på planka med mos & bea rödvinssky - 179 Kyckling pasta med vitlök, soltorkade tomater & pesto - 159 Scampi pasta med vitt vin, vitlök, persilja & färsktomat - 169 Carbonara pancetta, äggula, lök & parmesan - 159 Oxfilé Pasta med tryffel & spenat - 169 Grillad kycklingfilé med currydressing & pommes - 159 Falukorv Sandwich med senap, stekt ägg & pommes - 139 Fish and chips med remouladsås - 149 Caesarsallad kyckling med bacon, krutonger & parmesan - 149 Scampi Caesarsallad med krutonger & parmesan - 159 Halloumi sallad med avokado & rhode-island dressing - 149 Halloumi burgare med chili Mayo & pommes - 149 BBQ burgare med bacon, cheddarost & pommes - 149
+      - row "hasMenuSection":
+        - cell "hasMenuSection":
+          - generic: hasMenuSection
+        - cell
+      - row "@type MenuSection":
+        - cell "@type":
+          - generic: "@type"
+        - cell "MenuSection":
+          - generic: MenuSection
+      - row "@id https://ilvicino.se/meny/#meny-2":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#meny-2":
+          - generic: https://ilvicino.se/meny/#meny-2
+      - row "name Pizzor":
+        - cell "name":
+          - generic: name
+        - cell "Pizzor":
+          - generic: Pizzor
+      - row:
+        - cell "description":
+          - generic: description
+        - cell:
+          - generic: 129 1. MARGHERITA 2. AL FUNGHI (Svamp) 3. VESUVIO (Skinka) 4. CAPRICCIOSA (Skinka & Svamp) 5. CALZONE (Inbakad skinka) 6. HA W AII (Skinka & Ananas) 7. PESCATORE (Skinka & Räkor) 8. MEXICANA (Nötfärs, tacosås, vitlök, tacokrydda & jalapeño) 139 9. PIZZA POLLO (Kyckling, ananas & curry) 10. ROMANA (T onfisk, salami & lök) 11. VEGETARIANA (Svamp, paprika, lök & kronärtskocka) 12. ANCONA (Skinka, nötfärs & bearnaisesås) 13. KEBABPIZZA (Kebab, sallad, lök & kebabsås) 14. PSK SPECIAL (Kebab, pommes & kebabsås) 15. PARADISO (Svamp, fläskfilé & bearnaisesås) 16. VENEZIA (Fläskfilé, kronärtskocka, vitlök, tomater & bearnaisesås) 17. GORGONZOLA (Svamp, fläskfilé & gorgonzola) 18. PEPPERONI (Pepperoni & basilika 19. BABYLON (Sucuk korv, paprika, lök, ägg & oliver) 20. RUSTICA (Fläskfilé, räkor, vitlök, köttfärs & kebabsås) 195 GOURMET PIZZOR 21. QUATTRO FORMAGGI (Gorgonzola, taleggio, parmesan & mozzarella) 22. PARMA PIZZA (Prosciutto, ruccola, ört olja & tomater) 23. LA BREASOLA (Soltorkade tomater, vitlök, bresaola, basilika & parmesanost) 24. SALSICCA (Fior di latte ost, salsiccia & lök) 25. ARLECCHINO (Fior di latte ost, pesto, soltorkade tomater, rucola & parmesan) 26. NDUJA SPICY (Nduja kött, chilifärs & burrata) 209 27. PROSCIOTTO DI BURRATA (Pesto di burrata, pestosås, tomater, burrata, ruccola & pinjenötter) 28. TAR TUFO (T ryffelsås, bresaola, tomater, ruccola, citron & permesan
+      - row "hasMenuSection":
+        - cell "hasMenuSection":
+          - generic: hasMenuSection
+        - cell
+      - row "@type MenuSection":
+        - cell "@type":
+          - generic: "@type"
+        - cell "MenuSection":
+          - generic: MenuSection
+      - row "@id https://ilvicino.se/meny/#meny-3":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#meny-3":
+          - generic: https://ilvicino.se/meny/#meny-3
+      - row "name Barn Meny":
+        - cell "name":
+          - generic: name
+        - cell "Barn Meny":
+          - generic: Barn Meny
+      - row "description Pannkakor Med sylt & grädde - 89 Barn burgare Med pommes - 89 Barn pizza V esuvio (Skinka) - 89 Nuggets Med pommes - 89":
+        - cell "description":
+          - generic: description
+        - cell "Pannkakor Med sylt & grädde - 89 Barn burgare Med pommes - 89 Barn pizza V esuvio (Skinka) - 89 Nuggets Med pommes - 89":
+          - generic: Pannkakor Med sylt & grädde - 89 Barn burgare Med pommes - 89 Barn pizza V esuvio (Skinka) - 89 Nuggets Med pommes - 89
+      - row "hasMenuSection":
+        - cell "hasMenuSection":
+          - generic: hasMenuSection
+        - cell
+      - row "@type MenuSection":
+        - cell "@type":
+          - generic: "@type"
+        - cell "MenuSection":
+          - generic: MenuSection
+      - row "@id https://ilvicino.se/meny/#meny-4":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#meny-4":
+          - generic: https://ilvicino.se/meny/#meny-4
+      - row "name Dessert":
+        - cell "name":
+          - generic: name
+        - cell "Dessert":
+          - generic: Dessert
+      - row "description Friterad Camembert Med hjortronsylt - 89 Sorbet Med smak av citron - 59 Vanilj glass Med bär - 69 Tiramisu - 99":
+        - cell "description":
+          - generic: description
+        - cell "Friterad Camembert Med hjortronsylt - 89 Sorbet Med smak av citron - 59 Vanilj glass Med bär - 69 Tiramisu - 99":
+          - generic: Friterad Camembert Med hjortronsylt - 89 Sorbet Med smak av citron - 59 Vanilj glass Med bär - 69 Tiramisu - 99
+      - row "openingHoursSpecification":
+        - cell "openingHoursSpecification":
+          - generic: openingHoursSpecification
+        - cell
+      - row "@type OpeningHoursSpecification":
+        - cell "@type":
+          - generic: "@type"
+        - cell "OpeningHoursSpecification":
+          - generic: OpeningHoursSpecification
+      - row "dayOfWeek http://schema.org/Monday":
+        - cell "dayOfWeek":
+          - generic: dayOfWeek
+        - cell "http://schema.org/Monday":
+          - generic: http://schema.org/Monday
+      - row "dayOfWeek http://schema.org/Tuesday":
+        - cell "dayOfWeek":
+          - generic: dayOfWeek
+        - cell "http://schema.org/Tuesday":
+          - generic: http://schema.org/Tuesday
+      - row "dayOfWeek http://schema.org/Wednesday":
+        - cell "dayOfWeek":
+          - generic: dayOfWeek
+        - cell "http://schema.org/Wednesday":
+          - generic: http://schema.org/Wednesday
+      - row "dayOfWeek http://schema.org/Thursday":
+        - cell "dayOfWeek":
+          - generic: dayOfWeek
+        - cell "http://schema.org/Thursday":
+          - generic: http://schema.org/Thursday
+      - row "opens 10:30":
+        - cell "opens":
+          - generic: opens
+        - cell "10:30":
+          - generic: 10:30
+      - row "closes 21:00":
+        - cell "closes":
+          - generic: closes
+        - cell "21:00":
+          - generic: 21:00
+      - row "openingHoursSpecification":
+        - cell "openingHoursSpecification":
+          - generic: openingHoursSpecification
+        - cell
+      - row "@type OpeningHoursSpecification":
+        - cell "@type":
+          - generic: "@type"
+        - cell "OpeningHoursSpecification":
+          - generic: OpeningHoursSpecification
+      - row "dayOfWeek http://schema.org/Friday":
+        - cell "dayOfWeek":
+          - generic: dayOfWeek
+        - cell "http://schema.org/Friday":
+          - generic: http://schema.org/Friday
+      - row "opens 10:30":
+        - cell "opens":
+          - generic: opens
+        - cell "10:30":
+          - generic: 10:30
+      - row "closes 22:00":
+        - cell "closes":
+          - generic: closes
+        - cell "22:00":
+          - generic: 22:00
+      - row "openingHoursSpecification":
+        - cell "openingHoursSpecification":
+          - generic: openingHoursSpecification
+        - cell
+      - row "@type OpeningHoursSpecification":
+        - cell "@type":
+          - generic: "@type"
+        - cell "OpeningHoursSpecification":
+          - generic: OpeningHoursSpecification
+      - row "dayOfWeek http://schema.org/Saturday":
+        - cell "dayOfWeek":
+          - generic: dayOfWeek
+        - cell "http://schema.org/Saturday":
+          - generic: http://schema.org/Saturday
+      - row "opens 12:00":
+        - cell "opens":
+          - generic: opens
+        - cell "12:00":
+          - generic: 12:00
+      - row "closes 22:00":
+        - cell "closes":
+          - generic: closes
+        - cell "22:00":
+          - generic: 22:00
+      - row "openingHoursSpecification":
+        - cell "openingHoursSpecification":
+          - generic: openingHoursSpecification
+        - cell
+      - row "@type OpeningHoursSpecification":
+        - cell "@type":
+          - generic: "@type"
+        - cell "OpeningHoursSpecification":
+          - generic: OpeningHoursSpecification
+      - row "dayOfWeek http://schema.org/Sunday":
+        - cell "dayOfWeek":
+          - generic: dayOfWeek
+        - cell "http://schema.org/Sunday":
+          - generic: http://schema.org/Sunday
+      - row "opens 12:00":
+        - cell "opens":
+          - generic: opens
+        - cell "12:00":
+          - generic: 12:00
+      - row "closes 20:00":
+        - cell "closes":
+          - generic: closes
+        - cell "20:00":
+          - generic: 20:00
+      - row "about":
+        - cell "about":
+          - generic: about
+        - cell
+      - row "@type Restaurant":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Restaurant":
+          - generic: Restaurant
+      - row "@id https://ilvicino.se/#restaurant":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/#restaurant":
+          - generic: https://ilvicino.se/#restaurant
+      - row "name IL VICINO":
+        - cell "name":
+          - generic: name
+        - cell "IL VICINO":
+          - generic: IL VICINO
+      - row "url https://ilvicino.se/":
+        - cell "url":
+          - generic: url
+        - cell "https://ilvicino.se/":
+          - generic: https://ilvicino.se/
+      - row "logo https://ilvicino.se/assets/9d76905f8d.svg":
+        - cell "logo":
+          - generic: logo
+        - cell "https://ilvicino.se/assets/9d76905f8d.svg":
+          - generic: https://ilvicino.se/assets/9d76905f8d.svg
+      - row "image https://ilvicino.se/assets/5583f7603e.jpeg":
+        - cell "image":
+          - generic: image
+        - cell "https://ilvicino.se/assets/5583f7603e.jpeg":
+          - generic: https://ilvicino.se/assets/5583f7603e.jpeg
+      - row "telephone 08550-97000":
+        - cell "telephone":
+          - generic: telephone
+        - cell "08550-97000":
+          - generic: 08550-97000
+      - row "email info@ilvicino.se":
+        - cell "email":
+          - generic: email
+        - cell "info@ilvicino.se":
+          - generic: info@ilvicino.se
+      - row "address":
+        - cell "address":
+          - generic: address
+        - cell
+      - row "@type PostalAddress":
+        - cell "@type":
+          - generic: "@type"
+        - cell "PostalAddress":
+          - generic: PostalAddress
+      - row "streetAddress Nyköpingsvägen 75":
+        - cell "streetAddress":
+          - generic: streetAddress
+        - cell "Nyköpingsvägen 75":
+          - generic: Nyköpingsvägen 75
+      - row "postalCode 15139":
+        - cell "postalCode":
+          - generic: postalCode
+        - cell "15139":
+          - generic: "15139"
+      - row "addressLocality Södertälje":
+        - cell "addressLocality":
+          - generic: addressLocality
+        - cell "Södertälje":
+          - generic: Södertälje
+      - row "hasMenu":
+        - cell "hasMenu":
+          - generic: hasMenu
+        - cell
+      - row "@type Menu":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Menu":
+          - generic: Menu
+      - row "@id https://ilvicino.se/meny/#menu":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#menu":
+          - generic: https://ilvicino.se/meny/#menu
+      - row "name Vår Meny":
+        - cell "name":
+          - generic: name
+        - cell "Vår Meny":
+          - generic: Vår Meny
+      - row "url https://ilvicino.se/meny/":
+        - cell "url":
+          - generic: url
+        - cell "https://ilvicino.se/meny/":
+          - generic: https://ilvicino.se/meny/
+      - row "hasMenuSection":
+        - cell "hasMenuSection":
+          - generic: hasMenuSection
+        - cell
+      - row "@type MenuSection":
+        - cell "@type":
+          - generic: "@type"
+        - cell "MenuSection":
+          - generic: MenuSection
+      - row "@id https://ilvicino.se/meny/#meny-0":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#meny-0":
+          - generic: https://ilvicino.se/meny/#meny-0
+      - row "name Förrätter":
+        - cell "name":
+          - generic: name
+        - cell "Förrätter":
+          - generic: Förrätter
+      - row "description Toast Skagen På rostad surdegsbröd - 99 Buffalo Wings Med vitlöks dip 8st - 89 Nachos Med smältost, guacamole och salsa - 79 Mozzarella sticks Med vitlök dip 6st - 69 Jalapeño Poppers Med vitlöks dip 6st - 69 Chicken nuggets Med curry dip 6st - 69 Falafel Med sesamdressing 6st - 69 Combo Plates Med Wings, sticks poppers & nuggets med 2st dip - 159":
+        - cell "description":
+          - generic: description
+        - cell "Toast Skagen På rostad surdegsbröd - 99 Buffalo Wings Med vitlöks dip 8st - 89 Nachos Med smältost, guacamole och salsa - 79 Mozzarella sticks Med vitlök dip 6st - 69 Jalapeño Poppers Med vitlöks dip 6st - 69 Chicken nuggets Med curry dip 6st - 69 Falafel Med sesamdressing 6st - 69 Combo Plates Med Wings, sticks poppers & nuggets med 2st dip - 159":
+          - generic: Toast Skagen På rostad surdegsbröd - 99 Buffalo Wings Med vitlöks dip 8st - 89 Nachos Med smältost, guacamole och salsa - 79 Mozzarella sticks Med vitlök dip 6st - 69 Jalapeño Poppers Med vitlöks dip 6st - 69 Chicken nuggets Med curry dip 6st - 69 Falafel Med sesamdressing 6st - 69 Combo Plates Med Wings, sticks poppers & nuggets med 2st dip - 159
+      - row "hasMenuSection":
+        - cell "hasMenuSection":
+          - generic: hasMenuSection
+        - cell
+      - row "@type MenuSection":
+        - cell "@type":
+          - generic: "@type"
+        - cell "MenuSection":
+          - generic: MenuSection
+      - row "@id https://ilvicino.se/meny/#meny-1":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#meny-1":
+          - generic: https://ilvicino.se/meny/#meny-1
+      - row "name Varmrätter":
+        - cell "name":
+          - generic: name
+        - cell "Varmrätter":
+          - generic: Varmrätter
+      - row "description Grillad Biff 200g med pommes, bea & rödvinssås - 199 Skomakarlåda 200g Biff, bacon, rödvinssky, purjolök & mos - 199 Schnitzel med bea rödvinssky & pommes - 169 Fläskfilé på planka med mos & bea rödvinssky - 179 Kyckling pasta med vitlök, soltorkade tomater & pesto - 159 Scampi pasta med vitt vin, vitlök, persilja & färsktomat - 169 Carbonara pancetta, äggula, lök & parmesan - 159 Oxfilé Pasta med tryffel & spenat - 169 Grillad kycklingfilé med currydressing & pommes - 159 Falukorv Sandwich med senap, stekt ägg & pommes - 139 Fish and chips med remouladsås - 149 Caesarsallad kyckling med bacon, krutonger & parmesan - 149 Scampi Caesarsallad med krutonger & parmesan - 159 Halloumi sallad med avokado & rhode-island dressing - 149 Halloumi burgare med chili Mayo & pommes - 149 BBQ burgare med bacon, cheddarost & pommes - 149":
+        - cell "description":
+          - generic: description
+        - cell "Grillad Biff 200g med pommes, bea & rödvinssås - 199 Skomakarlåda 200g Biff, bacon, rödvinssky, purjolök & mos - 199 Schnitzel med bea rödvinssky & pommes - 169 Fläskfilé på planka med mos & bea rödvinssky - 179 Kyckling pasta med vitlök, soltorkade tomater & pesto - 159 Scampi pasta med vitt vin, vitlök, persilja & färsktomat - 169 Carbonara pancetta, äggula, lök & parmesan - 159 Oxfilé Pasta med tryffel & spenat - 169 Grillad kycklingfilé med currydressing & pommes - 159 Falukorv Sandwich med senap, stekt ägg & pommes - 139 Fish and chips med remouladsås - 149 Caesarsallad kyckling med bacon, krutonger & parmesan - 149 Scampi Caesarsallad med krutonger & parmesan - 159 Halloumi sallad med avokado & rhode-island dressing - 149 Halloumi burgare med chili Mayo & pommes - 149 BBQ burgare med bacon, cheddarost & pommes - 149":
+          - generic: Grillad Biff 200g med pommes, bea & rödvinssås - 199 Skomakarlåda 200g Biff, bacon, rödvinssky, purjolök & mos - 199 Schnitzel med bea rödvinssky & pommes - 169 Fläskfilé på planka med mos & bea rödvinssky - 179 Kyckling pasta med vitlök, soltorkade tomater & pesto - 159 Scampi pasta med vitt vin, vitlök, persilja & färsktomat - 169 Carbonara pancetta, äggula, lök & parmesan - 159 Oxfilé Pasta med tryffel & spenat - 169 Grillad kycklingfilé med currydressing & pommes - 159 Falukorv Sandwich med senap, stekt ägg & pommes - 139 Fish and chips med remouladsås - 149 Caesarsallad kyckling med bacon, krutonger & parmesan - 149 Scampi Caesarsallad med krutonger & parmesan - 159 Halloumi sallad med avokado & rhode-island dressing - 149 Halloumi burgare med chili Mayo & pommes - 149 BBQ burgare med bacon, cheddarost & pommes - 149
+      - row "hasMenuSection":
+        - cell "hasMenuSection":
+          - generic: hasMenuSection
+        - cell
+      - row "@type MenuSection":
+        - cell "@type":
+          - generic: "@type"
+        - cell "MenuSection":
+          - generic: MenuSection
+      - row "@id https://ilvicino.se/meny/#meny-2":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#meny-2":
+          - generic: https://ilvicino.se/meny/#meny-2
+      - row "name Pizzor":
+        - cell "name":
+          - generic: name
+        - cell "Pizzor":
+          - generic: Pizzor
+      - row:
+        - cell "description":
+          - generic: description
+        - cell:
+          - generic: 129 1. MARGHERITA 2. AL FUNGHI (Svamp) 3. VESUVIO (Skinka) 4. CAPRICCIOSA (Skinka & Svamp) 5. CALZONE (Inbakad skinka) 6. HA W AII (Skinka & Ananas) 7. PESCATORE (Skinka & Räkor) 8. MEXICANA (Nötfärs, tacosås, vitlök, tacokrydda & jalapeño) 139 9. PIZZA POLLO (Kyckling, ananas & curry) 10. ROMANA (T onfisk, salami & lök) 11. VEGETARIANA (Svamp, paprika, lök & kronärtskocka) 12. ANCONA (Skinka, nötfärs & bearnaisesås) 13. KEBABPIZZA (Kebab, sallad, lök & kebabsås) 14. PSK SPECIAL (Kebab, pommes & kebabsås) 15. PARADISO (Svamp, fläskfilé & bearnaisesås) 16. VENEZIA (Fläskfilé, kronärtskocka, vitlök, tomater & bearnaisesås) 17. GORGONZOLA (Svamp, fläskfilé & gorgonzola) 18. PEPPERONI (Pepperoni & basilika 19. BABYLON (Sucuk korv, paprika, lök, ägg & oliver) 20. RUSTICA (Fläskfilé, räkor, vitlök, köttfärs & kebabsås) 195 GOURMET PIZZOR 21. QUATTRO FORMAGGI (Gorgonzola, taleggio, parmesan & mozzarella) 22. PARMA PIZZA (Prosciutto, ruccola, ört olja & tomater) 23. LA BREASOLA (Soltorkade tomater, vitlök, bresaola, basilika & parmesanost) 24. SALSICCA (Fior di latte ost, salsiccia & lök) 25. ARLECCHINO (Fior di latte ost, pesto, soltorkade tomater, rucola & parmesan) 26. NDUJA SPICY (Nduja kött, chilifärs & burrata) 209 27. PROSCIOTTO DI BURRATA (Pesto di burrata, pestosås, tomater, burrata, ruccola & pinjenötter) 28. TAR TUFO (T ryffelsås, bresaola, tomater, ruccola, citron & permesan
+      - row "hasMenuSection":
+        - cell "hasMenuSection":
+          - generic: hasMenuSection
+        - cell
+      - row "@type MenuSection":
+        - cell "@type":
+          - generic: "@type"
+        - cell "MenuSection":
+          - generic: MenuSection
+      - row "@id https://ilvicino.se/meny/#meny-3":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#meny-3":
+          - generic: https://ilvicino.se/meny/#meny-3
+      - row "name Barn Meny":
+        - cell "name":
+          - generic: name
+        - cell "Barn Meny":
+          - generic: Barn Meny
+      - row "description Pannkakor Med sylt & grädde - 89 Barn burgare Med pommes - 89 Barn pizza V esuvio (Skinka) - 89 Nuggets Med pommes - 89":
+        - cell "description":
+          - generic: description
+        - cell "Pannkakor Med sylt & grädde - 89 Barn burgare Med pommes - 89 Barn pizza V esuvio (Skinka) - 89 Nuggets Med pommes - 89":
+          - generic: Pannkakor Med sylt & grädde - 89 Barn burgare Med pommes - 89 Barn pizza V esuvio (Skinka) - 89 Nuggets Med pommes - 89
+      - row "hasMenuSection":
+        - cell "hasMenuSection":
+          - generic: hasMenuSection
+        - cell
+      - row "@type MenuSection":
+        - cell "@type":
+          - generic: "@type"
+        - cell "MenuSection":
+          - generic: MenuSection
+      - row "@id https://ilvicino.se/meny/#meny-4":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#meny-4":
+          - generic: https://ilvicino.se/meny/#meny-4
+      - row "name Dessert":
+        - cell "name":
+          - generic: name
+        - cell "Dessert":
+          - generic: Dessert
+      - row "description Friterad Camembert Med hjortronsylt - 89 Sorbet Med smak av citron - 59 Vanilj glass Med bär - 69 Tiramisu - 99":
+        - cell "description":
+          - generic: description
+        - cell "Friterad Camembert Med hjortronsylt - 89 Sorbet Med smak av citron - 59 Vanilj glass Med bär - 69 Tiramisu - 99":
+          - generic: Friterad Camembert Med hjortronsylt - 89 Sorbet Med smak av citron - 59 Vanilj glass Med bär - 69 Tiramisu - 99
+      - row "openingHoursSpecification":
+        - cell "openingHoursSpecification":
+          - generic: openingHoursSpecification
+        - cell
+      - row "@type OpeningHoursSpecification":
+        - cell "@type":
+          - generic: "@type"
+        - cell "OpeningHoursSpecification":
+          - generic: OpeningHoursSpecification
+      - row "dayOfWeek http://schema.org/Monday":
+        - cell "dayOfWeek":
+          - generic: dayOfWeek
+        - cell "http://schema.org/Monday":
+          - generic: http://schema.org/Monday
+      - row "dayOfWeek http://schema.org/Tuesday":
+        - cell "dayOfWeek":
+          - generic: dayOfWeek
+        - cell "http://schema.org/Tuesday":
+          - generic: http://schema.org/Tuesday
+      - row "dayOfWeek http://schema.org/Wednesday":
+        - cell "dayOfWeek":
+          - generic: dayOfWeek
+        - cell "http://schema.org/Wednesday":
+          - generic: http://schema.org/Wednesday
+      - row "dayOfWeek http://schema.org/Thursday":
+        - cell "dayOfWeek":
+          - generic: dayOfWeek
+        - cell "http://schema.org/Thursday":
+          - generic: http://schema.org/Thursday
+      - row "opens 10:30":
+        - cell "opens":
+          - generic: opens
+        - cell "10:30":
+          - generic: 10:30
+      - row "closes 21:00":
+        - cell "closes":
+          - generic: closes
+        - cell "21:00":
+          - generic: 21:00
+      - row "openingHoursSpecification":
+        - cell "openingHoursSpecification":
+          - generic: openingHoursSpecification
+        - cell
+      - row "@type OpeningHoursSpecification":
+        - cell "@type":
+          - generic: "@type"
+        - cell "OpeningHoursSpecification":
+          - generic: OpeningHoursSpecification
+      - row "dayOfWeek http://schema.org/Friday":
+        - cell "dayOfWeek":
+          - generic: dayOfWeek
+        - cell "http://schema.org/Friday":
+          - generic: http://schema.org/Friday
+      - row "opens 10:30":
+        - cell "opens":
+          - generic: opens
+        - cell "10:30":
+          - generic: 10:30
+      - row "closes 22:00":
+        - cell "closes":
+          - generic: closes
+        - cell "22:00":
+          - generic: 22:00
+      - row "openingHoursSpecification":
+        - cell "openingHoursSpecification":
+          - generic: openingHoursSpecification
+        - cell
+      - row "@type OpeningHoursSpecification":
+        - cell "@type":
+          - generic: "@type"
+        - cell "OpeningHoursSpecification":
+          - generic: OpeningHoursSpecification
+      - row "dayOfWeek http://schema.org/Saturday":
+        - cell "dayOfWeek":
+          - generic: dayOfWeek
+        - cell "http://schema.org/Saturday":
+          - generic: http://schema.org/Saturday
+      - row "opens 12:00":
+        - cell "opens":
+          - generic: opens
+        - cell "12:00":
+          - generic: 12:00
+      - row "closes 22:00":
+        - cell "closes":
+          - generic: closes
+        - cell "22:00":
+          - generic: 22:00
+      - row "openingHoursSpecification":
+        - cell "openingHoursSpecification":
+          - generic: openingHoursSpecification
+        - cell
+      - row "@type OpeningHoursSpecification":
+        - cell "@type":
+          - generic: "@type"
+        - cell "OpeningHoursSpecification":
+          - generic: OpeningHoursSpecification
+      - row "dayOfWeek http://schema.org/Sunday":
+        - cell "dayOfWeek":
+          - generic: dayOfWeek
+        - cell "http://schema.org/Sunday":
+          - generic: http://schema.org/Sunday
+      - row "opens 12:00":
+        - cell "opens":
+          - generic: opens
+        - cell "12:00":
+          - generic: 12:00
+      - row "closes 20:00":
+        - cell "closes":
+          - generic: closes
+        - cell "20:00":
+          - generic: 20:00
+      - row "mainEntity":
+        - cell "mainEntity":
+          - generic: mainEntity
+        - cell
+      - row "@type Menu":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Menu":
+          - generic: Menu
+      - row "@id https://ilvicino.se/meny/#menu":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#menu":
+          - generic: https://ilvicino.se/meny/#menu
+      - row "name Vår Meny":
+        - cell "name":
+          - generic: name
+        - cell "Vår Meny":
+          - generic: Vår Meny
+      - row "url https://ilvicino.se/meny/":
+        - cell "url":
+          - generic: url
+        - cell "https://ilvicino.se/meny/":
+          - generic: https://ilvicino.se/meny/
+      - row "hasMenuSection":
+        - cell "hasMenuSection":
+          - generic: hasMenuSection
+        - cell
+      - row "@type MenuSection":
+        - cell "@type":
+          - generic: "@type"
+        - cell "MenuSection":
+          - generic: MenuSection
+      - row "@id https://ilvicino.se/meny/#meny-0":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#meny-0":
+          - generic: https://ilvicino.se/meny/#meny-0
+      - row "name Förrätter":
+        - cell "name":
+          - generic: name
+        - cell "Förrätter":
+          - generic: Förrätter
+      - row "description Toast Skagen På rostad surdegsbröd - 99 Buffalo Wings Med vitlöks dip 8st - 89 Nachos Med smältost, guacamole och salsa - 79 Mozzarella sticks Med vitlök dip 6st - 69 Jalapeño Poppers Med vitlöks dip 6st - 69 Chicken nuggets Med curry dip 6st - 69 Falafel Med sesamdressing 6st - 69 Combo Plates Med Wings, sticks poppers & nuggets med 2st dip - 159":
+        - cell "description":
+          - generic: description
+        - cell "Toast Skagen På rostad surdegsbröd - 99 Buffalo Wings Med vitlöks dip 8st - 89 Nachos Med smältost, guacamole och salsa - 79 Mozzarella sticks Med vitlök dip 6st - 69 Jalapeño Poppers Med vitlöks dip 6st - 69 Chicken nuggets Med curry dip 6st - 69 Falafel Med sesamdressing 6st - 69 Combo Plates Med Wings, sticks poppers & nuggets med 2st dip - 159":
+          - generic: Toast Skagen På rostad surdegsbröd - 99 Buffalo Wings Med vitlöks dip 8st - 89 Nachos Med smältost, guacamole och salsa - 79 Mozzarella sticks Med vitlök dip 6st - 69 Jalapeño Poppers Med vitlöks dip 6st - 69 Chicken nuggets Med curry dip 6st - 69 Falafel Med sesamdressing 6st - 69 Combo Plates Med Wings, sticks poppers & nuggets med 2st dip - 159
+      - row "hasMenuSection":
+        - cell "hasMenuSection":
+          - generic: hasMenuSection
+        - cell
+      - row "@type MenuSection":
+        - cell "@type":
+          - generic: "@type"
+        - cell "MenuSection":
+          - generic: MenuSection
+      - row "@id https://ilvicino.se/meny/#meny-1":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#meny-1":
+          - generic: https://ilvicino.se/meny/#meny-1
+      - row "name Varmrätter":
+        - cell "name":
+          - generic: name
+        - cell "Varmrätter":
+          - generic: Varmrätter
+      - row "description Grillad Biff 200g med pommes, bea & rödvinssås - 199 Skomakarlåda 200g Biff, bacon, rödvinssky, purjolök & mos - 199 Schnitzel med bea rödvinssky & pommes - 169 Fläskfilé på planka med mos & bea rödvinssky - 179 Kyckling pasta med vitlök, soltorkade tomater & pesto - 159 Scampi pasta med vitt vin, vitlök, persilja & färsktomat - 169 Carbonara pancetta, äggula, lök & parmesan - 159 Oxfilé Pasta med tryffel & spenat - 169 Grillad kycklingfilé med currydressing & pommes - 159 Falukorv Sandwich med senap, stekt ägg & pommes - 139 Fish and chips med remouladsås - 149 Caesarsallad kyckling med bacon, krutonger & parmesan - 149 Scampi Caesarsallad med krutonger & parmesan - 159 Halloumi sallad med avokado & rhode-island dressing - 149 Halloumi burgare med chili Mayo & pommes - 149 BBQ burgare med bacon, cheddarost & pommes - 149":
+        - cell "description":
+          - generic: description
+        - cell "Grillad Biff 200g med pommes, bea & rödvinssås - 199 Skomakarlåda 200g Biff, bacon, rödvinssky, purjolök & mos - 199 Schnitzel med bea rödvinssky & pommes - 169 Fläskfilé på planka med mos & bea rödvinssky - 179 Kyckling pasta med vitlök, soltorkade tomater & pesto - 159 Scampi pasta med vitt vin, vitlök, persilja & färsktomat - 169 Carbonara pancetta, äggula, lök & parmesan - 159 Oxfilé Pasta med tryffel & spenat - 169 Grillad kycklingfilé med currydressing & pommes - 159 Falukorv Sandwich med senap, stekt ägg & pommes - 139 Fish and chips med remouladsås - 149 Caesarsallad kyckling med bacon, krutonger & parmesan - 149 Scampi Caesarsallad med krutonger & parmesan - 159 Halloumi sallad med avokado & rhode-island dressing - 149 Halloumi burgare med chili Mayo & pommes - 149 BBQ burgare med bacon, cheddarost & pommes - 149":
+          - generic: Grillad Biff 200g med pommes, bea & rödvinssås - 199 Skomakarlåda 200g Biff, bacon, rödvinssky, purjolök & mos - 199 Schnitzel med bea rödvinssky & pommes - 169 Fläskfilé på planka med mos & bea rödvinssky - 179 Kyckling pasta med vitlök, soltorkade tomater & pesto - 159 Scampi pasta med vitt vin, vitlök, persilja & färsktomat - 169 Carbonara pancetta, äggula, lök & parmesan - 159 Oxfilé Pasta med tryffel & spenat - 169 Grillad kycklingfilé med currydressing & pommes - 159 Falukorv Sandwich med senap, stekt ägg & pommes - 139 Fish and chips med remouladsås - 149 Caesarsallad kyckling med bacon, krutonger & parmesan - 149 Scampi Caesarsallad med krutonger & parmesan - 159 Halloumi sallad med avokado & rhode-island dressing - 149 Halloumi burgare med chili Mayo & pommes - 149 BBQ burgare med bacon, cheddarost & pommes - 149
+      - row "hasMenuSection":
+        - cell "hasMenuSection":
+          - generic: hasMenuSection
+        - cell
+      - row "@type MenuSection":
+        - cell "@type":
+          - generic: "@type"
+        - cell "MenuSection":
+          - generic: MenuSection
+      - row "@id https://ilvicino.se/meny/#meny-2":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#meny-2":
+          - generic: https://ilvicino.se/meny/#meny-2
+      - row "name Pizzor":
+        - cell "name":
+          - generic: name
+        - cell "Pizzor":
+          - generic: Pizzor
+      - row:
+        - cell "description":
+          - generic: description
+        - cell:
+          - generic: 129 1. MARGHERITA 2. AL FUNGHI (Svamp) 3. VESUVIO (Skinka) 4. CAPRICCIOSA (Skinka & Svamp) 5. CALZONE (Inbakad skinka) 6. HA W AII (Skinka & Ananas) 7. PESCATORE (Skinka & Räkor) 8. MEXICANA (Nötfärs, tacosås, vitlök, tacokrydda & jalapeño) 139 9. PIZZA POLLO (Kyckling, ananas & curry) 10. ROMANA (T onfisk, salami & lök) 11. VEGETARIANA (Svamp, paprika, lök & kronärtskocka) 12. ANCONA (Skinka, nötfärs & bearnaisesås) 13. KEBABPIZZA (Kebab, sallad, lök & kebabsås) 14. PSK SPECIAL (Kebab, pommes & kebabsås) 15. PARADISO (Svamp, fläskfilé & bearnaisesås) 16. VENEZIA (Fläskfilé, kronärtskocka, vitlök, tomater & bearnaisesås) 17. GORGONZOLA (Svamp, fläskfilé & gorgonzola) 18. PEPPERONI (Pepperoni & basilika 19. BABYLON (Sucuk korv, paprika, lök, ägg & oliver) 20. RUSTICA (Fläskfilé, räkor, vitlök, köttfärs & kebabsås) 195 GOURMET PIZZOR 21. QUATTRO FORMAGGI (Gorgonzola, taleggio, parmesan & mozzarella) 22. PARMA PIZZA (Prosciutto, ruccola, ört olja & tomater) 23. LA BREASOLA (Soltorkade tomater, vitlök, bresaola, basilika & parmesanost) 24. SALSICCA (Fior di latte ost, salsiccia & lök) 25. ARLECCHINO (Fior di latte ost, pesto, soltorkade tomater, rucola & parmesan) 26. NDUJA SPICY (Nduja kött, chilifärs & burrata) 209 27. PROSCIOTTO DI BURRATA (Pesto di burrata, pestosås, tomater, burrata, ruccola & pinjenötter) 28. TAR TUFO (T ryffelsås, bresaola, tomater, ruccola, citron & permesan
+      - row "hasMenuSection":
+        - cell "hasMenuSection":
+          - generic: hasMenuSection
+        - cell
+      - row "@type MenuSection":
+        - cell "@type":
+          - generic: "@type"
+        - cell "MenuSection":
+          - generic: MenuSection
+      - row "@id https://ilvicino.se/meny/#meny-3":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#meny-3":
+          - generic: https://ilvicino.se/meny/#meny-3
+      - row "name Barn Meny":
+        - cell "name":
+          - generic: name
+        - cell "Barn Meny":
+          - generic: Barn Meny
+      - row "description Pannkakor Med sylt & grädde - 89 Barn burgare Med pommes - 89 Barn pizza V esuvio (Skinka) - 89 Nuggets Med pommes - 89":
+        - cell "description":
+          - generic: description
+        - cell "Pannkakor Med sylt & grädde - 89 Barn burgare Med pommes - 89 Barn pizza V esuvio (Skinka) - 89 Nuggets Med pommes - 89":
+          - generic: Pannkakor Med sylt & grädde - 89 Barn burgare Med pommes - 89 Barn pizza V esuvio (Skinka) - 89 Nuggets Med pommes - 89
+      - row "hasMenuSection":
+        - cell "hasMenuSection":
+          - generic: hasMenuSection
+        - cell
+      - row "@type MenuSection":
+        - cell "@type":
+          - generic: "@type"
+        - cell "MenuSection":
+          - generic: MenuSection
+      - row "@id https://ilvicino.se/meny/#meny-4":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#meny-4":
+          - generic: https://ilvicino.se/meny/#meny-4
+      - row "name Dessert":
+        - cell "name":
+          - generic: name
+        - cell "Dessert":
+          - generic: Dessert
+      - row "description Friterad Camembert Med hjortronsylt - 89 Sorbet Med smak av citron - 59 Vanilj glass Med bär - 69 Tiramisu - 99":
+        - cell "description":
+          - generic: description
+        - cell "Friterad Camembert Med hjortronsylt - 89 Sorbet Med smak av citron - 59 Vanilj glass Med bär - 69 Tiramisu - 99":
+          - generic: Friterad Camembert Med hjortronsylt - 89 Sorbet Med smak av citron - 59 Vanilj glass Med bär - 69 Tiramisu - 99
+      - row "breadcrumb":
+        - cell "breadcrumb":
+          - generic: breadcrumb
+        - cell
+      - row "@type BreadcrumbList":
+        - cell "@type":
+          - generic: "@type"
+        - cell "BreadcrumbList":
+          - generic: BreadcrumbList
+      - row "@id https://ilvicino.se/meny/#breadcrumb":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/#breadcrumb":
+          - generic: https://ilvicino.se/meny/#breadcrumb
+      - row "itemListElement":
+        - cell "itemListElement":
+          - generic: itemListElement
+        - cell
+      - row "@type ListItem":
+        - cell "@type":
+          - generic: "@type"
+        - cell "ListItem":
+          - generic: ListItem
+      - row "position 1":
+        - cell "position":
+          - generic: position
+        - cell "1":
+          - generic: "1"
+      - row "name Hem":
+        - cell "name":
+          - generic: name
+        - cell "Hem":
+          - generic: Hem
+      - row "item":
+        - cell "item":
+          - generic: item
+        - cell
+      - row "@type Thing":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Thing":
+          - generic: Thing
+      - row "@id https://ilvicino.se/":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/":
+          - generic: https://ilvicino.se/
+      - row "itemListElement":
+        - cell "itemListElement":
+          - generic: itemListElement
+        - cell
+      - row "@type ListItem":
+        - cell "@type":
+          - generic: "@type"
+        - cell "ListItem":
+          - generic: ListItem
+      - row "position 2":
+        - cell "position":
+          - generic: position
+        - cell "2":
+          - generic: "2"
+      - row "name Meny":
+        - cell "name":
+          - generic: name
+        - cell "Meny":
+          - generic: Meny
+      - row "item":
+        - cell "item":
+          - generic: item
+        - cell
+      - row "@type Thing":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Thing":
+          - generic: Thing
+      - row "@id https://ilvicino.se/meny/":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://ilvicino.se/meny/":
+          - generic: https://ilvicino.se/meny/
+- button "play_arrow" [disabled]:
+  - generic: play_arrow
+- generic: VALIDATE
+- button

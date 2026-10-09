@@ -1,0 +1,9 @@
+
+> il-vicino@1.0.0 start
+> next start --hostname 0.0.0.0 --port 3100
+
+▲ Next.js 16.4.0
+- Local:         http://localhost:3100
+- Network:       http://0.0.0.0:3100
+✓ Ready in 58ms
+✓ Running next.config.ts took 13ms

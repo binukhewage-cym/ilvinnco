@@ -1,0 +1,237 @@
+[
+  {
+    "name": "/ HTTP 200",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/ preserved title",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/ original description absence preserved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/ Swedish language",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/ canonical",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/ indexable",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/ one H1",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/ social title",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/ JSON-LD syntax and stable unique entity IDs",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/ schema facts",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/ every original content block preserved",
+    "status": "PASS",
+    "detail": "[]"
+  },
+  {
+    "name": "/ every original visible image retained",
+    "status": "PASS",
+    "detail": "[]"
+  },
+  {
+    "name": "/ links have accessible names",
+    "status": "PASS",
+    "detail": "[]"
+  },
+  {
+    "name": "/ functional internal destinations",
+    "status": "PASS",
+    "detail": "[]"
+  },
+  {
+    "name": "/meny/ HTTP 200",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/meny/ preserved title",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/meny/ original description absence preserved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/meny/ Swedish language",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/meny/ canonical",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/meny/ indexable",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/meny/ one H1",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/meny/ social title",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/meny/ JSON-LD syntax and stable unique entity IDs",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/meny/ schema facts",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "/meny/ every original content block preserved",
+    "status": "PASS",
+    "detail": "[]"
+  },
+  {
+    "name": "/meny/ every original visible image retained",
+    "status": "PASS",
+    "detail": "[]"
+  },
+  {
+    "name": "/meny/ links have accessible names",
+    "status": "PASS",
+    "detail": "[]"
+  },
+  {
+    "name": "/meny/ functional internal destinations",
+    "status": "PASS",
+    "detail": "[]"
+  },
+  {
+    "name": "form action preserved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "form destination preserved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "form locale preserved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "form page-id preserved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "form site-id preserved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "form site-name preserved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "form success-message preserved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "form ws-hcaptcha-key preserved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "form field name preserved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "form field email preserved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "form field message preserved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "form required email preserved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "original analytics ID and provider preserved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "robots policy preserved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "sitemap two canonical routes",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "unknown route returns 404",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "menu slash redirect",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "integration noindex header",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "name": "all archived brand assets present",
+    "status": "PASS",
+    "detail": ""
+  }
+]

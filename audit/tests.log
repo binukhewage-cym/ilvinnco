@@ -1,0 +1,52 @@
+
+> il-vicino@1.0.0 test
+> node scripts/verify.mjs
+
+PASS / HTTP 200
+PASS / preserved title
+PASS / original description absence preserved
+PASS / Swedish language
+PASS / canonical
+PASS / indexable
+PASS / one H1
+PASS / social title
+PASS / JSON-LD syntax and stable unique entity IDs
+PASS / schema facts
+PASS / every original content block preserved
+PASS / every original visible image retained
+PASS / links have accessible names
+PASS / functional internal destinations
+PASS /meny/ HTTP 200
+PASS /meny/ preserved title
+PASS /meny/ original description absence preserved
+PASS /meny/ Swedish language
+PASS /meny/ canonical
+PASS /meny/ indexable
+PASS /meny/ one H1
+PASS /meny/ social title
+PASS /meny/ JSON-LD syntax and stable unique entity IDs
+PASS /meny/ schema facts
+PASS /meny/ every original content block preserved
+PASS /meny/ every original visible image retained
+PASS /meny/ links have accessible names
+PASS /meny/ functional internal destinations
+PASS form action preserved
+PASS form destination preserved
+PASS form locale preserved
+PASS form page-id preserved
+PASS form site-id preserved
+PASS form site-name preserved
+PASS form success-message preserved
+PASS form ws-hcaptcha-key preserved
+PASS form field name preserved
+PASS form field email preserved
+PASS form field message preserved
+PASS form required email preserved
+PASS original analytics ID and provider preserved
+PASS robots policy preserved
+PASS sitemap two canonical routes
+PASS unknown route returns 404
+PASS menu slash redirect
+PASS integration noindex header
+PASS all archived brand assets present
+47/47 checks passed
