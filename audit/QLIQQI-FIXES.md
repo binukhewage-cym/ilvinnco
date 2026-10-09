@@ -1,0 +1,16 @@
+# QLIQQI audit follow-up — 9 October 2026
+
+Source: `qliqqi-audit-ilvinnco.vercel.app-detailed-with-fixes (1).pdf`, supplied by the site owner. The report audits the Vercel preview, while the site's canonical origin is `https://ilvicino.se/`. No deployment was made during this follow-up.
+
+| Report recommendation | Result | Evidence / remaining action |
+| --- | --- | --- |
+| Enable AI crawler access | Already implemented locally; production not verified | The generated `out/robots.txt` allows public pages for `*` and names major search and AI user agents, while disallowing `/integration/`. The live production robots response could not be fetched in this environment. Verify the deployed `https://ilvicino.se/robots.txt` and any CDN/WAF rules after publishing. Explicit rules cannot guarantee crawling or citations. |
+| Add `AggregateRating` or `Review` schema | Not added | No independently verified rating value, count, source URL, or permission to republish one was supplied. The site's existing quoted testimonials are not a verified aggregate rating. Adding one would risk misleading markup. |
+| Complete `llms.txt` | Already implemented locally | The generated file is 6,524 characters and includes every menu section through Dessert plus all published FAQ answers. The PDF's 2,000-character observation appears to reflect its crawler's capture limit; verify the deployed response directly. No new or translated content was added. |
+| Explicit AI bot allow-list | Already implemented locally; policy needs owner review | `src/app/robots.ts` lists search, assistant, and training crawlers. The site's public default rule also allows any unblocked crawler. The owner should decide whether training crawlers should remain permitted before changing that policy. |
+| Same-origin sitemap coverage | Correct for the production canonical origin | The generated sitemap contains exactly `https://ilvicino.se/` and `https://ilvicino.se/meny/`. They are off-origin only when a crawler audits the temporary Vercel preview as though it were the canonical site. Do not add preview URLs to the production sitemap. |
+| Sitemap crawl depth | No missing page found | The rebuilt site has two indexable content routes, both included in the sitemap. `robots.txt` and `llms.txt` are resources, not content pages. |
+| Image alternative text | Verified locally | All 11 rendered images have an `alt` attribute. The two linked logos have accessible link names, and the three review avatars have adjacent visible names, so their empty `alt` values avoid redundant announcements. Informational photos have descriptive alternatives. |
+| Internal links | Improved | The existing FAQ answer now links its unchanged word “meny” to `/meny/`. The existing menu-page phrases “Boka ditt bord nu” and “Kontakta oss på 08550-97000” now link to the booking section and telephone number. Browser navigation to the booking section was verified. |
+
+Validation: ESLint, TypeScript, and `next build --webpack` passed. The generated HTML check confirmed that the linked FAQ answer and menu call-to-action retain their exact visible text. The new links were tested in the local browser. Live production robots, CDN/WAF behavior, external structured-data validators, and any revised third-party GEO score remain unverified here.

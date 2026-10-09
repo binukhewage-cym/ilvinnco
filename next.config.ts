@@ -1,13 +1,10 @@
 import type { NextConfig } from 'next';
+// Static export (like lalibela): `out/` is uploaded to a PHP host so public/contact.php can run.
+// Response headers live in public/.htaccess since `headers()` does not apply to exports.
 const nextConfig: NextConfig = {
+  output: 'export',
   trailingSlash: true,
   poweredByHeader: false,
-  images: { formats: ['image/avif', 'image/webp'] },
-  async headers() {
-    return [
-      { source: '/:path*', headers: [{key:'X-Content-Type-Options',value:'nosniff'},{key:'Referrer-Policy',value:'strict-origin-when-cross-origin'},{key:'X-Frame-Options',value:'SAMEORIGIN'}] },
-      { source: '/integration/:path*', headers: [{key:'X-Robots-Tag',value:'noindex'}] },
-    ];
-  },
+  images: { unoptimized: true },
 };
 export default nextConfig;

@@ -4,9 +4,9 @@ import { bookingHref, facts, original } from '@/data/site';
 export function Arrow() { return <span aria-hidden="true">↗</span>; }
 export function BookingLink({className = ''}: {className?:string}) { return <a className={`button ${className}`} href={bookingHref}>Boka bord <Arrow /></a>; }
 export function Header({menu = false}: {menu?:boolean}) {
- return <header className="site-header"><div className="shell flex h-full items-center justify-between gap-4">
-   <Link href="/" className="brand" aria-label="IL VICINO – startsida"><Image src={original.home.images[0]} alt="" width={40} height={40}/><span>IL VICINO</span></Link>
-   <nav aria-label="Huvudnavigation" className="flex items-center gap-5 md:gap-9"><Link href="/" aria-current={!menu?'page':undefined} className="nav-link">Hem</Link><Link href="/meny/" aria-current={menu?'page':undefined} className="nav-link">Meny</Link><a href="tel:0855097000" className="header-phone">{facts.phone}</a><BookingLink /></nav>
+ return <header id="top" className="site-header"><div className="shell flex h-full items-center justify-between gap-4">
+   <Link href="/#top" className="brand" aria-label="IL VICINO – startsida"><Image src={original.home.images[0]} alt="" width={40} height={40}/><span>IL VICINO</span></Link>
+   <nav aria-label="Huvudnavigation" className="flex items-center gap-5 md:gap-9"><Link href="/#top" aria-current={!menu?'page':undefined} className="nav-link">Hem</Link><Link href="/meny/#top" aria-current={menu?'page':undefined} className="nav-link">Meny</Link><a href="tel:0855097000" className="header-phone">{facts.phone}</a><BookingLink /></nav>
  </div></header>;
 }
 export function Footer({minimal = false}: {minimal?:boolean}) {

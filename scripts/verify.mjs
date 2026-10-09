@@ -39,12 +39,12 @@ for(const [key,path] of [['home','/'],['meny','/meny/']]){
   else if(href.startsWith('#')&&!$(`[id="${href.slice(1)}"]`).length)broken.push(href);
  }
  check(`${path} functional internal destinations`,broken.length===0,JSON.stringify(broken));
+
 }
-const form=load(await(await fetch(base+'/integration/contact.html')).text());
-const oldForm=load(fs.readFileSync('audit/baseline/home.html','utf8'));
-for(const attr of ['action','destination','locale','page-id','site-id','site-name','success-message','ws-hcaptcha-key'])check(`form ${attr} preserved`,form('ws-contact-form-container').attr(attr)===oldForm('ws-contact-form-container').attr(attr));
-for(const field of ['name','email','message'])check(`form field ${field} preserved`,form(`[name=${field}]`).length===1);
-check('form required email preserved',form('[name=email]').attr('required')!==undefined);
+const home=load(await(await fetch(base+'/')).text());const form=home('form.contact-fields');
+for(const field of ['name','email','phone','message','website'])check(`contact form field ${field} present`,form.find(`[name=${field}]`).length===1);
+check('contact form required fields',['name','email','message'].every(f=>form.find(`[name=${f}]`).attr('required')!==undefined));
+check('contact.php shipped in public/',fs.existsSync('public/contact.php'));
 const analytics=JSON.parse(fs.readFileSync('src/data/analytics.json','utf8'));
 const originalAnalytics=load(fs.readFileSync('audit/baseline/home.html','utf8'))('#site_analytics_tracking');
 check('original analytics ID and provider preserved',analytics.attrs['data-id']===originalAnalytics.attr('data-id')&&analytics.attrs['data-url']===originalAnalytics.attr('data-url')&&analytics.script.includes('_trackPageview'));
@@ -52,8 +52,7 @@ const robots=await(await fetch(base+'/robots.txt')).text();check('robots allows 
 const llmsRes=await fetch(base+'/llms.txt');const llms=await llmsRes.text();check('llms.txt served with facts and full menu',llmsRes.ok&&llms.startsWith('# IL VICINO')&&llms.includes('Nyköpingsvägen 75')&&llms.includes('MARGHERITA')&&llms.includes('Tiramisu'));
 const xml=await(await fetch(base+'/sitemap.xml')).text();const sm=load(xml,{xmlMode:true});assert.equal(sm('parsererror').length,0);check('sitemap two canonical routes',JSON.stringify(sm('loc').map((_,e)=>sm(e).text()).get().sort())===JSON.stringify(['https://ilvicino.se/','https://ilvicino.se/meny/']));
 check('unknown route returns 404',(await fetch(base+'/missing-route-test/')).status===404);
-check('menu slash redirect',(await fetch(base+'/meny',{redirect:'manual'})).status===308);
-check('integration noindex header',(await fetch(base+'/integration/contact.html')).headers.get('x-robots-tag')==='noindex');
+check('menu slash redirect',[301,308].includes((await fetch(base+'/meny',{redirect:'manual'})).status));
 const assets=JSON.parse(fs.readFileSync('audit/baseline/assets.json'));check('all archived brand assets present',Object.values(assets).every(p=>fs.existsSync('public'+p)&&fs.statSync('public'+p).size>0));
 fs.writeFileSync('audit/verification.json',JSON.stringify(results,null,2));
 console.log(results.map(r=>`${r.status} ${r.name}${r.status==='FAIL'?' '+r.detail:''}`).join('\n'));
