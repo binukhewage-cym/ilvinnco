@@ -1,0 +1,41 @@
+{
+  "/assets/5583f7603e.jpeg": [
+    {"width": 360, "src": "/assets/optimized/5583f7603e-85b84a462a-w360.webp"},
+    {"width": 720, "src": "/assets/optimized/5583f7603e-85b84a462a-w720.webp"},
+    {"width": 960, "src": "/assets/optimized/5583f7603e-85b84a462a-w960.webp"},
+    {"width": 1200, "src": "/assets/optimized/5583f7603e-85b84a462a-w1200.webp"}
+  ],
+  "/assets/a22d060833.jpeg": [
+    {"width": 360, "src": "/assets/optimized/a22d060833-19d6131ba6-w360.webp"},
+    {"width": 720, "src": "/assets/optimized/a22d060833-19d6131ba6-w720.webp"},
+    {"width": 960, "src": "/assets/optimized/a22d060833-19d6131ba6-w960.webp"},
+    {"width": 1200, "src": "/assets/optimized/a22d060833-19d6131ba6-w1200.webp"}
+  ],
+  "/assets/10a0145e25.png": [
+    {"width": 360, "src": "/assets/optimized/10a0145e25-90a254ec03-w360.webp"},
+    {"width": 720, "src": "/assets/optimized/10a0145e25-90a254ec03-w720.webp"},
+    {"width": 960, "src": "/assets/optimized/10a0145e25-90a254ec03-w960.webp"},
+    {"width": 1280, "src": "/assets/optimized/10a0145e25-90a254ec03-w1280.webp"}
+  ],
+  "/assets/ce663b874d.jpeg": [
+    {"width": 360, "src": "/assets/optimized/ce663b874d-d68c6e270c-w360.webp"},
+    {"width": 720, "src": "/assets/optimized/ce663b874d-d68c6e270c-w720.webp"},
+    {"width": 960, "src": "/assets/optimized/ce663b874d-d68c6e270c-w960.webp"},
+    {"width": 1280, "src": "/assets/optimized/ce663b874d-d68c6e270c-w1280.webp"}
+  ],
+  "/assets/41fb500318.jpg": [
+    {"width": 360, "src": "/assets/optimized/menu-hero-enhanced-3fe4778326-w360.webp"},
+    {"width": 720, "src": "/assets/optimized/menu-hero-enhanced-3fe4778326-w720.webp"},
+    {"width": 960, "src": "/assets/optimized/menu-hero-enhanced-3fe4778326-w960.webp"},
+    {"width": 1216, "src": "/assets/optimized/menu-hero-enhanced-3fe4778326-w1216.webp"}
+  ],
+  "/assets/b69b87d0ce.jpeg": [
+    {"width": 96, "src": "/assets/optimized/b69b87d0ce-26ab420876-w96.webp"}
+  ],
+  "/assets/14c7d9f18e.jpeg": [
+    {"width": 96, "src": "/assets/optimized/14c7d9f18e-6af46118e4-w96.webp"}
+  ],
+  "/assets/b01c3f5e1a.jpeg": [
+    {"width": 96, "src": "/assets/optimized/b01c3f5e1a-5de0f53ad9-w96.webp"}
+  ]
+}

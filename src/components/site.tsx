@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { bookingHref, facts, original } from '@/data/site';
+import imageVariants from '@/data/image-variants.json';
+const variants = imageVariants as Record<string, {width:number;src:string}[]>;
+function webpSrcSet(src:string) { return variants[src]?.map(image => `${image.src} ${image.width}w`).join(', '); }
 export function Arrow() { return <span aria-hidden="true">↗</span>; }
 export function BookingLink({className = ''}: {className?:string}) { return <a className={`button ${className}`} href={bookingHref}>Boka bord <Arrow /></a>; }
 export function Header({menu = false}: {menu?:boolean}) {
@@ -16,5 +19,10 @@ export function Footer({minimal = false}: {minimal?:boolean}) {
 }
 export function Paragraphs({block,start=1}: {block:number;start?:number}) { return original.home.blocks[block].slice(start).map((p,i)=><p key={i}>{p.text}</p>); }
 export function Photo({src,alt,className='',priority=false,sizes='(max-width: 767px) 100vw, 50vw'}:{src:string;alt:string;className?:string;priority?:boolean;sizes?:string}) {
- return <div className={`photo ${className}`}><Image src={src} alt={alt} fill sizes={sizes} priority={priority} fetchPriority={priority ? 'high' : undefined} quality={75}/></div>;
+ const srcSet=webpSrcSet(src);
+ return <div className={`photo ${className}`}><picture>{srcSet&&<source type="image/webp" srcSet={srcSet} sizes={sizes}/>}<Image src={src} alt={alt} fill sizes={sizes} loading={priority?'eager':'lazy'} fetchPriority={priority?'high':undefined}/></picture></div>;
+}
+export function ReviewAvatar({src}:{src:string}) {
+ const srcSet=webpSrcSet(src);
+ return <picture style={{display:'block',width:44,height:44,flex:'none'}}>{srcSet&&<source type="image/webp" srcSet={srcSet} sizes="44px"/>}<Image src={src} alt="" width={48} height={48} loading="lazy"/></picture>;
 }
