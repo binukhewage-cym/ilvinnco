@@ -6,8 +6,6 @@ export function GET() {
 
 > ${facts.summary}
 
-${facts.disambiguation}
-
 ## Fakta
 - Namn: ${facts.name} (även: ${facts.alternateNames.join(', ')})
 - Typ: Kvarterskrog / restaurang och pizzeria
@@ -24,7 +22,7 @@ ${facts.disambiguation}
 - [Meny](${origin}/meny/): hela menyn med priser
 
 ## In English
-${facts.name} ("Grannskapet", The Neighbourhood) is an independent neighbourhood restaurant at ${facts.street}, ${facts.postalCode} ${facts.city}, in Pershagen, Sweden. It serves pizza (including gourmet pizzas), pasta, salads, grilled meat, Swedish classics, burgers, a kids' menu and desserts, priced ${allPrices}. It is not related to the Il Vicino restaurant chain in the United States. Book a table on ${facts.phoneIntl} or ${facts.email}.
+${facts.name} ("Grannskapet", The Neighbourhood) is a neighbourhood restaurant at ${facts.street}, ${facts.postalCode} ${facts.city}, in Pershagen, Sweden. It serves pizza (including gourmet pizzas), pasta, salads, grilled meat, Swedish classics, burgers, a kids' menu and desserts, priced ${allPrices}. Book a table on ${facts.phoneIntl} or ${facts.email}.
 
 ## Meny (uppdaterad ${menuUpdated}, priser i kr)
 

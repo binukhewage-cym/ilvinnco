@@ -150,62 +150,37 @@
     "detail": "[]"
   },
   {
-    "name": "form action preserved",
+    "name": "contact form field name present",
     "status": "PASS",
     "detail": ""
   },
   {
-    "name": "form destination preserved",
+    "name": "contact form field email present",
     "status": "PASS",
     "detail": ""
   },
   {
-    "name": "form locale preserved",
+    "name": "contact form field phone present",
     "status": "PASS",
     "detail": ""
   },
   {
-    "name": "form page-id preserved",
+    "name": "contact form field message present",
     "status": "PASS",
     "detail": ""
   },
   {
-    "name": "form site-id preserved",
+    "name": "contact form field website present",
     "status": "PASS",
     "detail": ""
   },
   {
-    "name": "form site-name preserved",
+    "name": "contact form required fields",
     "status": "PASS",
     "detail": ""
   },
   {
-    "name": "form success-message preserved",
-    "status": "PASS",
-    "detail": ""
-  },
-  {
-    "name": "form ws-hcaptcha-key preserved",
-    "status": "PASS",
-    "detail": ""
-  },
-  {
-    "name": "form field name preserved",
-    "status": "PASS",
-    "detail": ""
-  },
-  {
-    "name": "form field email preserved",
-    "status": "PASS",
-    "detail": ""
-  },
-  {
-    "name": "form field message preserved",
-    "status": "PASS",
-    "detail": ""
-  },
-  {
-    "name": "form required email preserved",
+    "name": "contact.php shipped in public/",
     "status": "PASS",
     "detail": ""
   },
@@ -236,11 +211,6 @@
   },
   {
     "name": "menu slash redirect",
-    "status": "PASS",
-    "detail": ""
-  },
-  {
-    "name": "integration noindex header",
     "status": "PASS",
     "detail": ""
   },

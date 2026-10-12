@@ -25,7 +25,7 @@ for(const [key,path] of [['home','/'],['meny','/meny/']]){
  const business=graph.find(e=>e['@type']==='Restaurant');
  if(key==='home'){const faq=graph.find(e=>e['@type']==='FAQPage');check('/ FAQPage matches visible questions',faq?.mainEntity.length>=6&&faq.mainEntity.every(q=>$('details summary').text().includes(q.name)));}
  if(key==='meny'){const items=graph.find(e=>e['@type']==='Menu').hasMenuSection.flatMap(s=>s.hasMenuItem);check('/meny/ every MenuItem priced in SEK',items.length>50&&items.every(i=>i.offers?.priceCurrency==='SEK'&&i.offers.price>0),String(items.length));}
- check(`${path} schema facts`,business.name==='IL VICINO'&&business.telephone==='+46855097000'&&business.address.streetAddress==='Nyköpingsvägen 75'&&business.address.addressCountry==='SE'&&business.servesCuisine.length>0&&!!business.priceRange&&!!business.disambiguatingDescription&&business.openingHoursSpecification.length===4);
+ check(`${path} schema facts`,business.name==='IL VICINO'&&business.telephone==='+46855097000'&&business.address.streetAddress==='Nyköpingsvägen 75'&&business.address.addressCountry==='SE'&&business.servesCuisine.length>0&&!!business.priceRange&&business.openingHoursSpecification.length===4);
  $('script,style').remove();const text=normalize($('body').text());
  const missing=source[key].blocks.flat().filter(b=>b.text&&!text.includes(normalize(correct(b.text))));
  check(`${path} every original content block preserved`,missing.length===0,JSON.stringify(missing));

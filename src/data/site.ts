@@ -16,7 +16,6 @@ export const facts = {
   // Add verified official profile URLs (Google Business Profile, Instagram, Facebook, TripAdvisor) as [label, url]; they feed the footer and schema sameAs.
   profiles: [] as [string, string][],
   summary: 'IL VICINO (Grannskapet) är en kvarterskrog i Pershagen, Södertälje, som serverar pizza, pasta, sallader, kötträtter, burgare, barnmeny och dessert.',
-  disambiguation: 'IL VICINO är en fristående kvarterskrog på Nyköpingsvägen 75 i Pershagen, Södertälje kommun, Sverige. Den har ingen koppling till restaurangkedjan Il Vicino i USA eller andra restauranger med liknande namn.',
 };
 
 // Typing errors in the captured menu that split words and break search/AI extraction.
@@ -71,16 +70,9 @@ export function priceRange(items: MenuItem[]) {
 }
 export const allPrices = priceRange(menuSections.flatMap(s => s.items));
 const section = (name: string) => menuSections.find(s => s.name.toLowerCase().startsWith(name.toLowerCase()));
-const names = (sectionName: string, pick: (i: MenuItem) => boolean) => section(sectionName)?.items.filter(pick).map(i => i.name) ?? [];
 const list = (xs: string[]) => xs.length > 1 ? `${xs.slice(0, -1).join(', ')} och ${xs.at(-1)}` : xs.join('');
 const lower = (name: string) => name.toLowerCase().replace(/^barn /, 'barn');
-const dish = (name: string) => name.charAt(0) + name.slice(1).toLowerCase();
 const sectionPrices = list(menuSections.map(s => `${lower(s.name)} ${priceRange(s.items)}`));
-const vegetarian = [
-  ...names('Pizzor', i => /MARGHERITA|FUNGHI|VEGETARIANA|QUATTRO/.test(i.name)).map(n => `pizza ${dish(n)}`),
-  ...names('Förrätter', i => /Falafel|Mozzarella/.test(i.name)).map(lower),
-  ...names('Varmrätter', i => /^Halloumi/.test(i.name)).map(n => lower(n.replace(/ med.*$/, ''))),
-];
 const kids = section('Barn')?.items ?? [];
 
 // Answers use only facts published on this site (address, hours, menu, contact and event copy).
@@ -90,8 +82,6 @@ export const faq: {q: string; a: string}[] = [
   {q: 'Vad serverar IL VICINO?', a: `En bred meny för lunch och middag med ${list(menuSections.map(s => lower(s.name)))}. Bland annat ${section('Pizzor')?.items.length ?? 0} pizzor inklusive gourmetpizzor, pasta, sallader, grillad biff, schnitzel, fläskfilé, fish and chips och burgare.`},
   {q: 'Vad kostar det att äta på IL VICINO?', a: `Rätterna på menyn kostar ${allPrices}: ${sectionPrices}.`},
   {q: 'Hur bokar jag bord?', a: `Ring ${facts.phone}, mejla ${facts.email} eller skicka en förfrågan via kontaktformuläret på ilvicino.se.`},
-  {q: 'Finns det vegetariska rätter?', a: `Ja, till exempel ${list(vegetarian)}.`},
   {q: 'Finns det barnmeny?', a: `Ja. Barnmenyn har ${list(kids.map(i => lower(i.name)))} för ${priceRange(kids)} styck.`},
   {q: 'Kan man ha fest eller företagsevent på IL VICINO?', a: 'Ja. IL VICINO tar emot fester, företagsevent och andra sammankomster, anpassar menyn efter dina önskemål och erbjuder personlig service. Kontakta restaurangen för att planera ditt evenemang.'},
-  {q: 'Är IL VICINO i Pershagen samma restaurang som Il Vicino i USA?', a: `Nej. ${facts.disambiguation}`},
 ];
