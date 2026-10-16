@@ -1,7 +1,7 @@
 import {origin, facts, original, menuSections, allPrices, faq, menuUpdated} from '@/data/site';
 export const pageDescriptions = {
  home: `${facts.summary} Öppet alla dagar. Boka bord på ${facts.phone}.`,
- meny: `Hela menyn med priser för IL VICINO i Pershagen, Södertälje: förrätter, varmrätter, ${menuSections.find(s=>s.name==='Pizzor')?.items.length} pizzor, barnmeny och dessert (${allPrices}).`,
+ meny: `Hela menyn med priser för IL VICINO i Pershagen, Södertälje: förrätter, varmrätter, ${menuSections.find(s=>s.name==='Pizzor')?.items.length} pizzor, barnmeny och desserter (${allPrices}).`,
 };
 export function StructuredData({menu=false}:{menu?:boolean}) {
  const page = menu?`${origin}/meny/`:`${origin}/`;

@@ -35,7 +35,7 @@ export function ContactForm() {
     <form className="contact-fields" onSubmit={submit}>
       <div className="field-row">
         <label>Namn<input required name="name" placeholder="Ange ditt namn" autoComplete="name" maxLength={100} /></label>
-        <label>E-post<input required name="email" type="email" placeholder="Ange din e-post" autoComplete="email" maxLength={200} /></label>
+        <label>E-post<input required name="email" type="email" placeholder="Ange din e-postadress" autoComplete="email" maxLength={200} /></label>
       </div>
       <label>Telefon (valfritt)<input name="phone" type="tel" autoComplete="tel" maxLength={40} /></label>
       <label>Meddelande<textarea required name="message" rows={5} placeholder="Skriv ditt meddelande här" minLength={5} maxLength={4000} /></label>

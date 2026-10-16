@@ -5,7 +5,7 @@ const base=process.env.TEST_URL || 'http://localhost:3000';
 const source=JSON.parse(fs.readFileSync('src/data/original.json','utf8'));
 const normalize=s=>s.replace(/\s+/g,' ').trim();
 const corrections=JSON.parse(fs.readFileSync('src/data/menu-corrections.json','utf8'));
-const correct=t=>{for(const [from,to] of corrections)if(t.includes(from)&&!t.includes(to))t=t.replace(from,to);return t;};
+const correct=t=>{for(const [from,to] of corrections)if(t.includes(from)&&!t.includes(to))t=t.split(from).join(to);return t.replace(/(^|\s)&(?=\s|$)/g,'$1och').replace(/\s+-\s+(\d+)$/,' $1 kr');};
 const titles={home:'IL VICINO | Kvarterskrog i Pershagen, Södertälje',meny:'Meny | IL VICINO i Pershagen'};
 const results=[];
 function check(name,condition,detail=''){results.push({name,status:condition?'PASS':'FAIL',detail});}

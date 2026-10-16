@@ -8,22 +8,23 @@ export const bookingHref = `/#${bookingId}`;
 export const menuUpdated = '2026-10-09';
 export const facts = {
   name: 'IL VICINO', alternateNames: ['Il Vicino', 'Grannskapet', 'IL VICINO Pershagen'],
-  phone: '08550-97000', phoneIntl: '+46855097000', email: 'info@ilvicino.se',
+  phone: '08-550 970 00', phoneIntl: '+46855097000', email: 'info@ilvicino.se',
   address: 'Nyköpingsvägen 75 15139 Södertälje',
   street: 'Nyköpingsvägen 75', postalCode: '151 39', city: 'Södertälje', area: 'Pershagen', region: 'Stockholms län', country: 'SE',
   hours: ['Måndag-Torsdag 10:30-21:00', 'Fredag 10:30-22:00', 'Lördag 12:00-22:00', 'Söndag 12:00-20:00'],
   mapUrl: 'https://www.google.com/maps/search/?api=1&query=IL+VICINO+Nyk%C3%B6pingsv%C3%A4gen+75+151+39+S%C3%B6dert%C3%A4lje',
   // Add verified official profile URLs (Google Business Profile, Instagram, Facebook, TripAdvisor) as [label, url]; they feed the footer and schema sameAs.
   profiles: [] as [string, string][],
-  summary: 'IL VICINO (Grannskapet) är en kvarterskrog i Pershagen, Södertälje, som serverar pizza, pasta, sallader, kötträtter, burgare, barnmeny och dessert.',
+  summary: 'IL VICINO (Grannskapet) är en kvarterskrog i Pershagen, Södertälje, som serverar pizza, pasta, sallader, kötträtter, burgare, barnmeny och desserter.',
 };
 
-// Typing errors in the captured menu that split words and break search/AI extraction.
+// Typing and Swedish language errors in the captured copy; "&" becomes "och" and " - 99" prices become "99 kr".
 const corrections = menuCorrections as [string, string][];
 export function correct(text: string) {
-  for (const [from, to] of corrections) if (text.includes(from) && !text.includes(to)) text = text.replace(from, to);
-  return text;
+  for (const [from, to] of corrections) if (text.includes(from) && !text.includes(to)) text = text.split(from).join(to);
+  return text.replace(/(^|\s)&(?=\s|$)/g, '$1och').replace(/\s+-\s+(\d+)$/, ' $1 kr');
 }
+for (const page of [original.home, original.meny]) for (const block of page.blocks) for (const b of block) if (b.text) b.text = correct(b.text);
 
 export type MenuItem = {name: string; description?: string; price?: number};
 export type MenuSection = {name: string; id: string; lines: string[]; items: MenuItem[]};
@@ -46,7 +47,7 @@ function toItems(lines: string[]) {
     if (/^\d+$/.test(group[0])) { band = +group[0]; continue; }
     if (isBand(group[0])) continue;
     const text = group.join(' ').replace(/\s+/g, ' ');
-    const priced = text.match(/^(.*?)\s+-\s+(\d+)$/);
+    const priced = text.match(/^(.*?)\s+(\d+) kr$/);
     const body = priced ? priced[1] : text;
     const price = priced ? +priced[2] : band;
     const pizza = body.match(/^\d+\.\s*([^(]+?)\s*(?:\((.*)\))?$/);
@@ -59,7 +60,7 @@ function toItems(lines: string[]) {
 export const menuSections: MenuSection[] = [];
 for (const block of original.meny.blocks[1]) {
   if (block.tag === 'h3') menuSections.push({name: block.text, id: `meny-${menuSections.length}`, lines: [], items: []});
-  else if (menuSections.length && block.text) menuSections.at(-1)!.lines.push(correct(block.text));
+  else if (menuSections.length && block.text) menuSections.at(-1)!.lines.push(block.text);
 }
 for (const section of menuSections) section.items = toItems(section.lines);
 
@@ -79,7 +80,7 @@ const kids = section('Barn')?.items ?? [];
 export const faq: {q: string; a: string}[] = [
   {q: 'Var ligger IL VICINO?', a: `IL VICINO ligger på ${facts.street}, ${facts.postalCode} ${facts.city}, i ${facts.area} i Södertälje kommun (${facts.region}).`},
   {q: 'Vilka öppettider har IL VICINO?', a: `${facts.hours.join(', ')}.`},
-  {q: 'Vad serverar IL VICINO?', a: `En bred meny för lunch och middag med ${list(menuSections.map(s => lower(s.name)))}. Bland annat ${section('Pizzor')?.items.length ?? 0} pizzor inklusive gourmetpizzor, pasta, sallader, grillad biff, schnitzel, fläskfilé, fish and chips och burgare.`},
+  {q: 'Vad serverar IL VICINO?', a: `En bred meny för lunch och middag med ${list(menuSections.map(s => lower(s.name)))}. Här finns bland annat ${section('Pizzor')?.items.length ?? 0} pizzor (inklusive gourmetpizzor), pasta, sallader, grillad biff, schnitzel, fläskfilé, fish and chips och burgare.`},
   {q: 'Vad kostar det att äta på IL VICINO?', a: `Rätterna på menyn kostar ${allPrices}: ${sectionPrices}.`},
   {q: 'Hur bokar jag bord?', a: `Ring ${facts.phone}, mejla ${facts.email} eller skicka en förfrågan via kontaktformuläret på ilvicino.se.`},
   {q: 'Finns det barnmeny?', a: `Ja. Barnmenyn har ${list(kids.map(i => lower(i.name)))} för ${priceRange(kids)} styck.`},
